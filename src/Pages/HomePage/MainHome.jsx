@@ -103,23 +103,23 @@ const aboutData = {
 const countersData = [
   {
     iconUrl: '/assets/img/icons/counter_icon_1.png',
-    number: '567+',
-    title: 'Active Clients',
+    number: '13,500 ETB+',
+    title: 'Average Weekly Cost per Patient',
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_2.png',
-    number: '23K+',
-    title: 'Team Support',
+    number: '3x',
+    title: 'Weekly Mandatory Treatment Frequency',
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_3.png',
-    number: '241+',
-    title: 'Projects Complete',
+    number: '100%',
+    title: 'Non-Profit Transparency & Compliance',
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_4.png',
-    number: '16K+',
-    title: 'Award Winner',
+    number: '2018 E.C.',
+    title: 'Founded for Institutional Relief',
   },
 ];
 
