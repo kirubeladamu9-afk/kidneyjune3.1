@@ -296,117 +296,116 @@ const sectionData = {
 
 const projectData = {
   title: 'Operational Milestones',
-  subtitle: 'OUR PORTFOLIO',
-  description:
-    'Association Milestone Tracking',
+  subtitle: 'OUR ROADMAP',
+  description: 'Association Milestone Tracking',
   tabs: [
-    { id: 'dental', label: 'Dental' },
-    { id: 'cardiology', label: 'Cardiology' },
-    { id: 'neurology', label: 'Neurology' },
-    { id: 'medical', label: 'Medical' },
+    { id: 'incorporation', label: 'Phase 1: Legal Setup' },
+    { id: 'infrastructure', label: 'Phase 2: Headquarters' },
+    { id: 'registry', label: 'Phase 3: Patient Systems' },
+    { id: 'sustainability', label: 'Phase 4: Scaling' },
   ],
   tabData: [
     {
-      id: 'dental',
+      id: 'incorporation',
       items: [
         {
           imgUrl: '/assets/img/project_1.jpg',
-          title: 'Medical Of Working',
+          title: 'CSO Charter Approval',
           subtitle:
-            'We businesss standard chunk of Ipsum used since is Agency &amp; Star tup.',
+            'Successfully completed formal alignment and legal incorporation with the Federal Civil Society Organizations Authority.',
           index: 1,
         },
         {
           imgUrl: '/assets/img/project_2.jpg',
-          title: 'Medical Of Dental',
+          title: 'Governance Structural Framework',
           subtitle:
-            'We businesss standard chunk of Ipsum used since is Agency &amp; Star tup.',
+            'Appointed the executive board, financial management compliance auditors, and medical advisory committees.',
           index: 2,
         },
         {
           imgUrl: '/assets/img/project_3.jpg',
-          title: 'Laboratory Technologist',
+          title: 'Regulatory Compliance Setup',
           subtitle:
-            'We businesss standard chunk of Ipsum used since is Agency &amp; Star tup.',
+            'Established institutional bank accounts and tracking portals according to federal operational transparency standards.',
           index: 3,
         },
       ],
     },
     {
-      id: 'cardiology',
+      id: 'infrastructure',
       items: [
         {
           imgUrl: '/assets/img/project_1.jpg',
-          title: 'Medical Of Working',
+          title: 'Central Hub Allocation',
           subtitle:
-            'We businesss standard chunk of Ipsum used since is Agency &amp; Star tup.',
+            'Secured the foundational physical headquarters facility localized within Akaki Kality Sub-City to deploy operations.',
           index: 1,
         },
         {
           imgUrl: '/assets/img/project_3.jpg',
-          title: 'Laboratory Technologist',
+          title: 'Material Mobilization Campaign',
           subtitle:
-            'We businesss standard chunk of Ipsum used since is Agency &amp; Star tup.',
-          index: 3,
-        },
-        {
-          imgUrl: '/assets/img/project_2.jpg',
-          title: 'Medical Of Dental',
-          subtitle:
-            'We businesss standard chunk of Ipsum used since is Agency &amp; Star tup.',
+            'Launched procurement drives targeting workstations, networking equipment, and essential administrative office furniture.',
           index: 2,
         },
-      ],
-    },
-    {
-      id: 'neurology',
-      items: [
-        {
-          imgUrl: '/assets/img/project_1.jpg',
-          title: 'Medical Of Working',
-          subtitle:
-            'We businesss standard chunk of Ipsum used since is Agency &amp; Star tup.',
-          index: 1,
-        },
-        {
-          imgUrl: '/assets/img/project_3.jpg',
-          title: 'Medical Of Working',
-          subtitle:
-            'We businesss standard chunk of Ipsum used since is Agency &amp; Star tup.',
-          index: 1,
-        },
         {
           imgUrl: '/assets/img/project_2.jpg',
-          title: 'Medical Of Working',
+          title: 'Operational Communications Line',
           subtitle:
-            'We businesss standard chunk of Ipsum used since is Agency &amp; Star tup.',
-          index: 1,
+            'Deployed core data infrastructure, stakeholder intake lines, and online portals to link the hub with regional donors.',
+          index: 3,
         },
       ],
     },
     {
-      id: 'medical',
+      id: 'registry',
+      items: [
+        {
+          imgUrl: '/assets/img/project_1.jpg',
+          title: 'National Patient Database Blueprint',
+          subtitle:
+            'Designed a secure, encrypted digital registry platform to track patient clinical diagnostics and financial profiles securely.',
+          index: 1,
+        },
+        {
+          imgUrl: '/assets/img/project_3.jpg',
+          title: 'Intake and Evaluation Verification',
+          subtitle:
+            'Drafted objective verification rules to assess low-income healthcare subsidy allocation applications transparently.',
+          index: 2,
+        },
+        {
+          imgUrl: '/assets/img/project_2.jpg',
+          title: 'Clinical Center Integration',
+          subtitle:
+            'Initiated communications pathways with local diagnosis centers to facilitate direct medical funding transfer validations.',
+          index: 3,
+        },
+      ],
+    },
+    {
+      id: 'sustainability',
       items: [
         {
           imgUrl: '/assets/img/project_3.jpg',
-          title: 'Medical Of Working',
+          title: 'Dialysis Direct Subsidy Fund',
           subtitle:
-            'We businesss standard chunk of Ipsum used since is Agency &amp; Star tup.',
+            'Activated operational fundraising channels to securely clear medical bills for registered, low-income kidney patients.',
           index: 1,
         },
         {
           imgUrl: '/assets/img/project_2.jpg',
-          title: 'Medical Of Working',
+          title: 'CSR Corporate Alliances',
           subtitle:
-            'We businesss standard chunk of Ipsum used since is Agency &amp; Star tup.',
-          index: 1,
+            'Formulated long-term Corporate Social Responsibility partnerships with national financial institutions and local enterprises.',
+          index: 2,
         },
         {
           imgUrl: '/assets/img/project_1.jpg',
-          title: 'Medical Of Working',
+          title: 'Five-Year Scaling Blueprint',
           subtitle:
-            'We businesss standard chunk of Ipsum used since is Agency &amp; Star tup.',
-          index: 1,
+            'Constructed a long-term strategy to expand our localized home hub into a multi-regional healthcare support framework.',
+          index: 3,
         },
       ],
     },
