@@ -466,7 +466,7 @@ const medicalTabsData = {
   tabsData: [
     {
       id: 'dialysis_subsidy',
-      imageSrc: '/static/assets/img/post_6.jpeg',
+      imageSrc: 'https://cdn.builder.io/api/v1/image/assets%2F9007d8bf179e4f28b84a5500d86dd245%2Faf6ccb6ce1764c54b0e6496993fa617e?format=webp&width=800&height=1200',
       title: 'Easing the Financial Burden of Dialysis Care',
       subtitle:
         'We work strategically with local diagnostic centers to lower medical barriers, helping subsidize standard dialysis treatments for low-income patients who cannot afford the continuous cost of chronic care.',
@@ -485,7 +485,7 @@ const medicalTabsData = {
     },
     {
       id: 'office_drive',
-      imageSrc: '/static/assets/img/post_5.jpeg',
+      imageSrc: 'https://cdn.builder.io/api/v1/image/assets%2F9007d8bf179e4f28b84a5500d86dd245%2Fbe68309ad3d542358028c4cf29ba1f22?format=webp&width=800&height=1200',
       title: 'Establishing Our Administrative Infrastructure',
       subtitle:
         'To effectively transition operations into a fully scalable public hub, the association coordinates material donation drives specifically designed to equip our core Akaki Kality headquarters.',
@@ -504,7 +504,7 @@ const medicalTabsData = {
     },
     {
       id: 'volunteer_hub',
-      imageSrc: '/static/assets/img/post_1.jpeg',
+      imageSrc: 'https://cdn.builder.io/api/v1/image/assets%2F9007d8bf179e4f28b84a5500d86dd245%2Ffafa22ac7dae430ebf2ba31afbe5cad9?format=webp&width=800&height=1200',
       title: 'Mobilizing Professional Skills for Public Relief',
       subtitle:
         'Building a lasting humanitarian utility requires diverse institutional skillsets. We invite professionals across sectors to contribute to our administrative and medical operations.',
@@ -523,7 +523,7 @@ const medicalTabsData = {
     },
     {
       id: 'partnerships',
-      imageSrc: '/static/assets/img/post_3.jpeg',
+      imageSrc: 'https://cdn.builder.io/api/v1/image/assets%2F9007d8bf179e4f28b84a5500d86dd245%2F55c96fd356e84c76bd2ae72653fc5e1e?format=webp&width=800&height=1200',
       title: 'Strategic Corporate Social Responsibility',
       subtitle:
         'We align our structural workflows with the CSR frameworks of financial institutions, insurance corporations, and enterprises to implement robust, scalable community health programs.',
