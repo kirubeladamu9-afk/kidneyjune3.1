@@ -74,11 +74,11 @@ const aboutData = {
   sectionSubtitle: 'OUR ABOUT US',
   sectionTitle: 'From Air Force Veteran to a National Mission of Care',
   aboutText:
-    'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establIn 1977 E.C.'
+    'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establIn 1977 E.C.',
 
 After finishing his interrupted education and earning his Accounting Degree from Rift Valley College, he built a peaceful life. But in 2017 E.C., life changed completely. His wife, Wbro. Alemnesh Mekonnen—the dedicated Kality Branch Manager for Nile Insurance—suffered sudden double kidney failure.ishing.',
   service:
-    "There are many variations of pass available this medical service the team <a href='#''>READ MORE +</a>",
+    "Ato Aschalew Kassaye answered the call of duty, training at the Dedessa National Military Training Center before serving for 3 years in the Ethiopian Air Force. When conflict escalated in 1980 E.C., he returned to the front lines, serving honorably under the 29th Mechanized Brigade in Asmara until returning home in 1983 E.C. <a href='#''>READ MORE +</a>",
   experienceYears: '26+',
   experienceTitle: 'Experience',
   videoUrl: 'https://www.youtube.com/embed/rRid6GCJtgc',
