@@ -425,108 +425,107 @@ const ctaData1 = {
 };
 
 const medicalTabsData = {
-  subtitle: 'Service Offerings',
-  title: 'Explore Our Service<br> Offerings',
+  subtitle: 'Support Pillars',
+  title: 'Explore Our Core<br> Association Services',
   tabsTitle: [
     {
-      href: 'brain_althim',
+      href: 'dialysis_subsidy',
       iconUrl: 'assets/img/icons/tab_link_icon_1.png',
-      label: 'Modern Technology',
+      label: 'Dialysis Subsidies',
     },
     {
-      href: 'emergency',
+      href: 'office_drive',
       iconUrl: 'assets/img/icons/tab_link_icon_2.png',
-      label: 'Success of Treatment',
+      label: 'Material Support',
     },
     {
-      href: 'heart_beat',
+      href: 'volunteer_hub',
       iconUrl: 'assets/img/icons/tab_link_icon_3.png',
-      label: 'Certified Doctors',
+      label: 'Volunteer Network',
     },
     {
-      href: 'blood_test',
+      href: 'partnerships',
       iconUrl: 'assets/img/icons/tab_link_icon_4.png',
-      label: 'Medical Advice',
+      label: 'Corporate Alliances',
     },
   ],
   tabsData: [
     {
-      id: 'brain_althim',
+      id: 'dialysis_subsidy',
       imageSrc: 'assets/img/post_6.jpeg',
-      title: 'We are here to hear and heal your',
+      title: 'Easing the Financial Burden of Dialysis Care',
       subtitle:
-        'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands , feel safe and comfortable in establishing.',
+        'We work strategically with local diagnostic centers to lower medical barriers, helping subsidize standard dialysis treatments for low-income patients who cannot afford the continuous cost of chronic care.',
       points: [
         {
           icon: 'assets/img/icons/check_icon_1.png',
-          text: 'Medical sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum.',
+          text: 'Direct healthcare fund transfers targeting low-income patient medical fees.',
         },
         {
           icon: 'assets/img/icons/check_icon_1.png',
-          text: 'We are occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est healty.',
+          text: 'Structured patient registry systems to prioritize families facing catastrophic costs.',
         },
       ],
-      linkHref: '/contact',
-      buttonText: 'Read More',
+      linkHref: '#donate',
+      buttonText: 'Sponsor a Session',
     },
     {
-      id: 'emergency',
+      id: 'office_drive',
       imageSrc: 'assets/img/post_5.jpeg',
-      title: 'Treatment patients in primary care',
+      title: 'Establishing Our Administrative Infrastructure',
       subtitle:
-        'We are privileged to work with hundreds of future-thinking medical, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establishing.',
+        'To effectively transition operations into a fully scalable public hub, the association coordinates material donation drives specifically designed to equip our core Akaki Kality headquarters.',
       points: [
         {
           icon: 'assets/img/icons/check_icon_1.png',
-          text: 'Medical sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum.',
+          text: 'Accepting corporate office capital assets, including workstations, printers, and router hardware.',
         },
         {
           icon: 'assets/img/icons/check_icon_1.png',
-          text: 'We are occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est healty.',
+          text: 'Transparent logging and auditing for every item pledged by corporate partners.',
         },
       ],
-      linkHref: '/contact',
-      buttonText: 'Read More',
+      linkHref: '#contact',
+      buttonText: 'Pledge Materials',
     },
     {
-      id: 'heart_beat',
+      id: 'volunteer_hub',
       imageSrc: 'assets/img/post_1.jpeg',
-      title: 'Accreditation within a given specialty',
+      title: 'Mobilizing Professional Skills for Public Relief',
       subtitle:
-        'We are privileged to work with hundreds of future-thinking medical, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establishing.',
+        'Building a lasting humanitarian utility requires diverse institutional skillsets. We invite professionals across sectors to contribute to our administrative and medical operations.',
       points: [
         {
           icon: 'assets/img/icons/check_icon_1.png',
-          text: 'Medical sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum.',
+          text: 'Onboarding legal, IT, and data management volunteers to strengthen organizational foundations.',
         },
         {
           icon: 'assets/img/icons/check_icon_1.png',
-          text: 'We are occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est healty.',
+          text: 'Partnering with certified medical practitioners for patient intake assessment validations.',
         },
       ],
-      linkHref: '/contact',
-      buttonText: 'Read More',
+      linkHref: '#contact',
+      buttonText: 'Join as a Volunteer',
     },
     {
-      id: 'blood_test',
+      id: 'partnerships',
       imageSrc: 'assets/img/post_3.jpeg',
-      title: 'Better Health While Aging health',
+      title: 'Strategic Corporate Social Responsibility',
       subtitle:
-        'We are privileged to work with hundreds of future-thinking medical, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establishing.',
+        'We align our structural workflows with the CSR frameworks of financial institutions, insurance corporations, and enterprises to implement robust, scalable community health programs.',
       points: [
         {
           icon: 'assets/img/icons/check_icon_1.png',
-          text: 'Medical sint occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est laborum.',
+          text: 'Strict compliance oversight in alignment with Civil Society Organizations Authority standards.',
         },
         {
           icon: 'assets/img/icons/check_icon_1.png',
-          text: 'We are occaecat cupidatat non proident, sunt in culpa officia deserunt mollit anim id est healty.',
+          text: 'Coordinated funding allocations backed by audited annual transparency reports.',
         },
       ],
-      linkHref: '/contact',
-      buttonText: 'Read More',
+      linkHref: '#contact',
+      buttonText: 'Partner With Us',
     },
-    // Add other tab data here
   ],
 };
 
