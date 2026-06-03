@@ -268,23 +268,23 @@ const brandData = [
 ];
 
 const sectionData = {
-  subtitle: 'WHY CHOOSE US',
-  title: 'Medical Ready To Get This <br /> Health Solution.',
+  subtitle: 'Corporate Governance & Trust',
+  title: 'Built on Accountability, Audited for Trust',
   services: [
     {
       iconUrl: '/assets/img/icons/service_icon_9.png',
-      title: 'Expert Care',
-      subtitle: 'Medical competitor research startup to financial',
+      title: 'Legal Charter',
+      subtitle: 'Operating strictly under the official charter approved by the Civil Society Organizations Authority.',
     },
     {
       iconUrl: '/assets/img/icons/service_icon_10.png',
-      title: 'Emergency Help',
-      subtitle: 'Medical competitor research startup to financial',
+      title: 'Financial Fidelity',
+      subtitle: 'Every resource, financial contribution, or material item pledged is logged, audited, and strictly allocated to patient care and institutional growth.',
     },
     {
       iconUrl: '/assets/img/icons/service_icon_11.png',
-      title: 'Qualified Doctors',
-      subtitle: 'Medical competitor research startup to financial',
+      title: 'Corporate Partnerships',
+      subtitle: 'Designed to seamlessly integrate with CSR (Corporate Social Responsibility) programs of local banks, insurance companies, and enterprises.',
     },
     {
       iconUrl: '/assets/img/icons/service_icon_12.png',
