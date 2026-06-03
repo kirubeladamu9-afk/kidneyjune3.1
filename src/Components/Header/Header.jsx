@@ -16,54 +16,30 @@ const Header = ({ isTopBar, variant }) => {
   const [isSearchActive, setIsSearchActive] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [isSticky, setIsSticky] = useState();
+
   const menu = {
-    email: 'demo@example.com',
-    location: '15/K, Dhaka London City, LOT',
+    email: 'info@hallelujahkidney.org',
+    location: 'Akaki Kality, Addis Ababa, Ethiopia',
     logoUrl: '/assets/img/logo.svg',
     logoLink: '/',
     navItems: [
+      { label: 'Home', href: '#' },
+      { label: 'Who We Are', href: '#story' },
       {
-        label: 'Home',
-        href: '/',
+        label: 'Our Pillars',
+        href: '#pillars',
         subItems: [
-          { label: 'Main Home', href: '/' },
-          { label: 'Home V2', href: '/home-v2' },
-          { label: 'Home V3', href: '/home-v3' },
+          { label: 'Dialysis Subsidies', href: '#dialysis_subsidy' },
+          { label: 'Material Support', href: '#office_drive' },
+          { label: 'Volunteer Network', href: '#volunteer_hub' },
+          { label: 'Corporate Alliances', href: '#partnerships' },
         ],
       },
-      { label: 'About', href: '/about' },
-      {
-        label: 'Service',
-        href: '/service',
-        subItems: [
-          { label: 'Service', href: '/service' },
-          { label: 'Service Details', href: '/service/service-details' },
-        ],
-      },
-      {
-        label: 'Blog',
-        href: '/blog',
-        subItems: [
-          { label: 'Blog List', href: '/blog' },
-          { label: 'Blog Details', href: '/blog/blog-details' },
-        ],
-      },
-      {
-        label: 'Pages',
-        href: '/',
-        subItems: [
-          { label: 'Appointments', href: '/appointments' },
-          { label: 'Doctors', href: '/doctors' },
-          { label: 'Doctor Details', href: '/doctors/doctor-details' },
-          { label: 'Timetable', href: '/timetable' },
-          { label: 'Portfolio', href: '/portfolio' },
-          { label: 'Error 404', href: '/error' },
-        ],
-      },
-      { label: 'Contact', href: '/contact' },
+      { label: 'Strategic Roadmap', href: '#milestones' },
+      { label: 'Contact Us', href: '#contact' },
     ],
-    btnUrl: '/contact',
-    btnText: 'Contact Now',
+    btnUrl: '#donate',
+    btnText: 'Support Our Mission',
   };
 
   const handleOpenMobileSubmenu = index => {
@@ -93,6 +69,7 @@ const Header = ({ isTopBar, variant }) => {
       window.removeEventListener('scroll', handleScroll); // Cleanup the event listener
     };
   }, [prevScrollPos]);
+
   return (
     <>
       <header
@@ -153,7 +130,7 @@ const Header = ({ isTopBar, variant }) => {
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
                 <Link className="cs_site_branding" to={menu.logoLink}>
-                  <img src={menu.logoUrl} alt="Logo" />
+                  <img src={menu.logoUrl} alt="Hallelujah Association Logo" />
                 </Link>
               </div>
               <div className="cs_main_header_right ">
@@ -168,12 +145,13 @@ const Header = ({ isTopBar, variant }) => {
                         }
                         key={index}
                       >
-                        <Link
-                          to={item.href}
+                        {/* Using standard anchors/hashes to jump fluidly between page sections */}
+                        <a
+                          href={item.href}
                           onClick={() => setIsShowMobileMenu(!isShowMobileMenu)}
                         >
                           {item.label}
-                        </Link>
+                        </a>
                         {item.subItems && (
                           <ul
                             style={{
@@ -184,14 +162,14 @@ const Header = ({ isTopBar, variant }) => {
                           >
                             {item.subItems.map((subItem, subIndex) => (
                               <li key={subIndex}>
-                                <Link
-                                  to={subItem.href}
+                                <a
+                                  href={subItem.href}
                                   onClick={() =>
                                     setIsShowMobileMenu(!isShowMobileMenu)
                                   }
                                 >
                                   {subItem.label}
-                                </Link>
+                                </a>
                               </li>
                             ))}
                           </ul>
@@ -238,7 +216,7 @@ const Header = ({ isTopBar, variant }) => {
                     <div className="cs_header_search_form_in">
                       <input
                         type="text"
-                        placeholder="Search"
+                        placeholder="Search updates..."
                         className="cs_header_search_field"
                       />
                       <button className="cs_header_submit_btn">
@@ -249,12 +227,12 @@ const Header = ({ isTopBar, variant }) => {
                     </div>
                   </form>
                 </div>
-                <Link to={menu.btnUrl} className="cs_btn cs_style_1 cs_color_1">
+                <a href={menu.btnUrl} className="cs_btn cs_style_1 cs_color_1">
                   <span>{menu.btnText}</span>
                   <i>
                     <FaAnglesRight />
                   </i>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
