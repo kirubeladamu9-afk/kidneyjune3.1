@@ -9,40 +9,66 @@ import {
 } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
+// ─── Smooth scroll utility ────────────────────────────────────────────────────
+// Uses the same 100px header offset as Header.jsx.
+// Call this for every internal hash link inside the footer.
+const smoothScroll = (e, href) => {
+  if (!href) return;
+
+  if (href.startsWith('#')) {
+    e.preventDefault();
+    if (href === '#') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+    const target = document.querySelector(href);
+    if (target) {
+      const HEADER_OFFSET = 100;
+      const top = target.getBoundingClientRect().top + window.scrollY - HEADER_OFFSET;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  }
+  // Non-hash hrefs (real page routes) are handled normally by React Router <Link>
+};
+
 const Footer = () => {
   const data = {
     backgroundImage: '/assets/img/footer_bg.jpg',
     logo: '/assets/img/footer_logo.svg',
-    contactText:
-      'Association Core Hours: <br /> Mon - Fri: 8:30 am. - 5:30 pm.',
+    contactText: 'Association Core Hours: <br /> Mon - Fri: 8:30 am. - 5:30 pm.',
     contactText2: 'Akaki Kality Sub-City, Central Office, Addis Ababa, Ethiopia.',
-    contactText3: '+251 911 000 000', // Update with actual phone number when available
+    contactText3: '+251 911 000 000',
     facebookHref: '/',
     pinterestHref: '/',
     twitterHref: '/',
     instagramHref: '/',
+
+    // ── Widget columns ────────────────────────────────────────────────────
+    // All hrefs here are hash links → will use smoothScroll, NOT React Router Link
     widgets: [
       {
         title: 'Core Framework',
         links: [
           { href: '#dialysis_subsidy', text: 'Dialysis Subsidies' },
-          { href: '#office_drive', text: 'Material Support' },
-          { href: '#volunteer_hub', text: 'Volunteer Network' },
-          { href: '#partnerships', text: 'Corporate Alliances' },
-          { href: '#preventative_health', text: 'Preventative Advocacy' },
+          { href: '#office_drive',     text: 'Material Support'   },
+          { href: '#volunteer_hub',    text: 'Volunteer Network'  },
+          { href: '#partnerships',     text: 'Corporate Alliances'},
+          { href: '#support',          text: 'Preventative Advocacy' },
         ],
       },
       {
         title: 'Quick Links',
         links: [
-          { href: '/', text: 'Home Portal' },
-          { href: '#story', text: 'Who We Are' },
-          { href: '#pillars', text: 'Our Pillars' },
-          { href: '#milestones', text: 'Strategic Roadmap' },
-          { href: '#donate', text: 'Resource Mobilization' },
+          { href: '#home',       text: 'Home Portal'          },
+          { href: '#story',      text: 'Who We Are'           },
+          { href: '#pillars',    text: 'Our Pillars'          },
+          { href: '#milestones', text: 'Strategic Roadmap'    },
+          { href: '#donate',     text: 'Resource Mobilization'},
         ],
       },
     ],
+
+    // ── Recent posts — real page routes, keep as <Link to> ────────────────
     recentPosts: [
       {
         href: '/blog/patient-protocols',
@@ -57,12 +83,16 @@ const Footer = () => {
         title: 'Launching the Administrative Hub Equipment Drive',
       },
     ],
-    copyrightText: 'Copyright © 2026 Hallelujah Kidney Patients Association. All Rights Reserved.',
+
+    copyrightText:
+      'Copyright © 2026 Hallelujah Kidney Patients Association. All Rights Reserved.',
+
+    // ── Bottom footer menu — hash links ───────────────────────────────────
     footerMenu: [
-      { href: '#story', text: 'About Us' },
-      { href: '#milestones', text: 'Roadmap' },
-      { href: '#blog', text: 'Newsroom' },
-      { href: '#donate', text: 'Donate Us' },
+      { href: '#story',      text: 'About Us'  },
+      { href: '#milestones', text: 'Roadmap'   },
+      { href: '#support',    text: 'Newsroom'  },
+      { href: '#donate',     text: 'Donate Us' },
     ],
   };
 
@@ -73,88 +103,67 @@ const Footer = () => {
     >
       <div className="container">
         <div className="cs_footer_row">
+
+          {/* ── Contact / brand column ───────────────────────────────────── */}
           <div className="cs_footer_col">
             <div className="cs_footer_highlight_col cs_accent_bg">
               <div className="cs_footer_logo">
                 <img src={data.logo} alt="Hallelujah Association Logo" />
               </div>
+
               <ul className="cs_footer_contact cs_mp_0">
                 <li>
-                  <i
-                    style={{
-                      display: 'flex',
-                      flexDirection: 'column',
-                      alignItems: 'flex-start',
-                    }}
-                  >
+                  <i style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                     <FaRegClock />
                   </i>
-                  <span
-                    dangerouslySetInnerHTML={{ __html: data.contactText }}
-                  />
+                  <span dangerouslySetInnerHTML={{ __html: data.contactText }} />
                 </li>
                 <li>
-                  <i
-                    style={{
-                      display: 'flex',
-                      flexDirection: 'column',
-                      alignItems: 'flex-start',
-                    }}
-                  >
+                  <i style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                     <FaLocationDot />
                   </i>
-                  <span
-                    dangerouslySetInnerHTML={{ __html: data.contactText2 }}
-                  />
+                  <span dangerouslySetInnerHTML={{ __html: data.contactText2 }} />
                 </li>
                 <li>
-                  <i
-                    style={{
-                      display: 'flex',
-                      flexDirection: 'column',
-                      alignItems: 'flex-start',
-                    }}
-                  >
+                  <i style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                     <FaPhoneAlt />
                   </i>
-                  <span
-                    dangerouslySetInnerHTML={{ __html: data.contactText3 }}
-                  />
+                  <span dangerouslySetInnerHTML={{ __html: data.contactText3 }} />
                 </li>
               </ul>
+
+              {/* Social — real external links, keep as <Link to> */}
               <div className="cs_social_btns cs_style_1">
                 <Link to={data.facebookHref} className="cs_center">
-                  <i>
-                    <FaFacebookF />
-                  </i>
+                  <i><FaFacebookF /></i>
                 </Link>
                 <Link to={data.pinterestHref} className="cs_center">
-                  <i>
-                    <FaPinterestP />
-                  </i>
+                  <i><FaPinterestP /></i>
                 </Link>
                 <Link to={data.twitterHref} className="cs_center">
-                  <i>
-                    <BsTwitter />
-                  </i>
+                  <i><BsTwitter /></i>
                 </Link>
                 <Link to={data.instagramHref} className="cs_center">
-                  <i>
-                    <FaInstagram />
-                  </i>
+                  <i><FaInstagram /></i>
                 </Link>
               </div>
             </div>
           </div>
 
+          {/* ── Widget columns (hash links → <a> + smoothScroll) ────────── */}
           {data.widgets.map((widget, index) => (
             <div className="cs_footer_col" key={index}>
               <div className="cs_footer_widget">
                 <h2 className="cs_footer_widget_title">{widget.title}</h2>
                 <ul className="cs_footer_widget_nav_list cs_mp_0">
-                  {widget.links.map((link, index) => (
-                    <li key={index}>
-                      <Link to={link.href}>{link.text}</Link>
+                  {widget.links.map((link, i) => (
+                    <li key={i}>
+                      <a
+                        href={link.href}
+                        onClick={(e) => smoothScroll(e, link.href)}
+                      >
+                        {link.text}
+                      </a>
                     </li>
                   ))}
                 </ul>
@@ -162,6 +171,7 @@ const Footer = () => {
             </div>
           ))}
 
+          {/* ── Recent posts (real routes → keep <Link to>) ─────────────── */}
           <div className="cs_footer_col">
             <div className="cs_footer_widget">
               <h2 className="cs_footer_widget_title">Recent Updates</h2>
@@ -184,9 +194,11 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+
         </div>
       </div>
 
+      {/* ── Bottom bar ────────────────────────────────────────────────────── */}
       <div className="cs_footer_bottom cs_primary_bg">
         <div className="container">
           <div className="cs_footer_bottom_in">
@@ -194,7 +206,13 @@ const Footer = () => {
             <ul className="cs_footer_menu cs_mp_0">
               {data.footerMenu.map((item, index) => (
                 <li key={index}>
-                  <Link to={item.href}>{item.text}</Link>
+                  {/* Hash links → plain <a> with smoothScroll */}
+                  <a
+                    href={item.href}
+                    onClick={(e) => smoothScroll(e, item.href)}
+                  >
+                    {item.text}
+                  </a>
                 </li>
               ))}
             </ul>
