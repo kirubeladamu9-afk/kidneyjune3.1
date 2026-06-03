@@ -71,13 +71,13 @@ const Footer = () => {
     // ── Recent posts — real page routes, keep as <Link to> ────────────────
     recentPosts: [
       {
-        href: '/blog/patient-protocols',
+        href: '/',
         image: '/assets/img/recent_post_1.png',
         date: '02 Jun 2026',
         title: 'Standardizing Patient Registration Criteria for Transparency',
       },
       {
-        href: '/blog/infrastructure-mobilization',
+        href: '/',
         image: '/assets/img/recent_post_2.png',
         date: '28 May 2026',
         title: 'Launching the Administrative Hub Equipment Drive',
