@@ -6,7 +6,7 @@ import SectionHeading from "../SectionHeading";
 import Spacing from "../Spacing";
 
 const MedicalTabSection = ({ data }) => {
-  const [activeTab, setActiveTab] = useState("brain_althim");
+  const [activeTab, setActiveTab] = useState("dialysis_subsidy");
 
   return (
     <>

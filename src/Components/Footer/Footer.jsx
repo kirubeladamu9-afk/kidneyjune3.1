@@ -9,128 +9,90 @@ import {
 } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
-const data = {
-  backgroundImage: 'assets/img/footer_bg.jpg',
-  logo: '/assets/img/footer_logo.svg',
-  contact: [
-    {
-      icon: 'fa-regular fa-clock',
-      text: 'Open Hours of Government: <br /> Mon - Fri: 8.00 am. - 6.00 pm.',
-    },
-    {
-      icon: 'fa-solid fa-location-dot',
-      text: '13/A, Miranda Halim City.',
-    },
-    {
-      icon: 'fa-solid fa-phone',
-      text: '099 695 695 35',
-    },
-  ],
-  socialLinks: [
-    { href: '#', icon: 'fa-brands fa-facebook-f' },
-    { href: '#', icon: 'fa-brands fa-pinterest-p' },
-    { href: '#', icon: 'fa-brands fa-twitter' },
-    { href: '#', icon: 'fa-brands fa-instagram' },
-  ],
-  widgets: [
-    {
-      title: 'Service',
-      links: [
-        { href: '#', text: 'Why choose us' },
-        { href: '#', text: 'Our solutions' },
-        { href: '#', text: 'Partners' },
-        { href: '#', text: 'Core values' },
-        { href: '#', text: 'Our projects' },
-      ],
-    },
-    {
-      title: 'Quick Link',
-      links: [
-        { href: '#', text: 'Residents' },
-        { href: '#', text: 'Business' },
-        { href: '#', text: 'Online Service' },
-        { href: '#', text: 'Visiting' },
-        { href: '#', text: 'Employment' },
-      ],
-    },
-  ],
-  recentPosts: [
-    {
-      href: '/blog/blog-details',
-      image: 'assets/img/recent_post_1.png',
-      date: '23 jun 2024',
-      title: 'We round Solution york Blog',
-    },
-    {
-      href: '/blog/blog-details',
-      image: 'assets/img/recent_post_2.png',
-      date: '20 jun 2024',
-      title: 'The Medical Of This Working Health',
-    },
-  ],
-  copyrightText: 'Copyright © 2024 Medilo, All Rights Reserved.',
-  footerMenu: [
-    { href: 'about.html', text: 'About Us' },
-    { href: '#', text: 'Events' },
-    { href: 'blog.html', text: 'News' },
-    { href: 'service.html', text: 'Service' },
-  ],
+// ─── Smooth scroll utility ────────────────────────────────────────────────────
+// Uses the same 100px header offset as Header.jsx.
+// Call this for every internal hash link inside the footer.
+const smoothScroll = (e, href) => {
+  if (!href) return;
+
+  if (href.startsWith('#')) {
+    e.preventDefault();
+    if (href === '#') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+    const target = document.querySelector(href);
+    if (target) {
+      const HEADER_OFFSET = 100;
+      const top = target.getBoundingClientRect().top + window.scrollY - HEADER_OFFSET;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  }
+  // Non-hash hrefs (real page routes) are handled normally by React Router <Link>
 };
 
 const Footer = () => {
   const data = {
     backgroundImage: '/assets/img/footer_bg.jpg',
     logo: '/assets/img/footer_logo.svg',
-    contactText:
-      'Open Hours of Government: <br /> Mon - Fri: 8.00 am. - 6.00 pm.',
-    contactText2: '13/A, Miranda Halim City.',
-    contactText3: '099 695 695 35',
+    contactText: 'Association Core Hours: <br /> Mon - Fri: 8:30 am. - 5:30 pm.',
+    contactText2: 'Akaki Kality Sub-City, Central Office, Addis Ababa, Ethiopia.',
+    contactText3: '+251 911 000 000',
     facebookHref: '/',
     pinterestHref: '/',
     twitterHref: '/',
     instagramHref: '/',
+
+    // ── Widget columns ────────────────────────────────────────────────────
+    // All hrefs here are hash links → will use smoothScroll, NOT React Router Link
     widgets: [
       {
-        title: 'Service',
+        title: 'Core Framework',
         links: [
-          { href: '/service/service-details', text: 'Plastic Surgery' },
-          { href: '/service/service-details', text: 'Pharmacology' },
-          { href: '/service/service-details', text: 'Dental Care' },
-          { href: '/service/service-details', text: 'Dental Care' },
-          { href: '/service/service-details', text: 'Orthopedic' },
+          { href: '#dialysis_subsidy', text: 'Dialysis Subsidies' },
+          { href: '#office_drive',     text: 'Material Support'   },
+          { href: '#volunteer_hub',    text: 'Volunteer Network'  },
+          { href: '#partnerships',     text: 'Corporate Alliances'},
+          { href: '#support',          text: 'Preventative Advocacy' },
         ],
       },
       {
-        title: 'Quick Link',
+        title: 'Quick Links',
         links: [
-          { href: '/', text: 'Home' },
-          { href: '/about', text: 'About Us' },
-          { href: '/service', text: 'Our Services' },
-          { href: '/portfolio', text: 'Our Portfolio' },
-          { href: '/contact', text: 'Contact' },
+          { href: '#home',       text: 'Home Portal'          },
+          { href: '#story',      text: 'Who We Are'           },
+          { href: '#pillars',    text: 'Our Pillars'          },
+          { href: '#milestones', text: 'Strategic Roadmap'    },
+          { href: '#donate',     text: 'Resource Mobilization'},
         ],
       },
     ],
+
+    // ── Recent posts — real page routes, keep as <Link to> ────────────────
     recentPosts: [
       {
-        href: '/blog/blog-details',
+        href: '/',
         image: '/assets/img/recent_post_1.png',
-        date: '23 jun 2024',
-        title: 'We round Solution york Blog',
+        date: '02 Jun 2026',
+        title: 'Standardizing Patient Registration Criteria for Transparency',
       },
       {
-        href: '/blog/blog-details',
+        href: '/',
         image: '/assets/img/recent_post_2.png',
-        date: '20 jun 2024',
-        title: 'The Medical Of This Working Health',
+        date: '28 May 2026',
+        title: 'Launching the Administrative Hub Equipment Drive',
       },
     ],
-    copyrightText: 'Copyright © 2024 Medilo, All Rights Reserved.',
+
+    copyrightText:
+      'Copyright © 2026 Hallelujah Kidney Patients Association. All Rights Reserved.',
+
+    // ── Bottom footer menu — hash links ───────────────────────────────────
     footerMenu: [
-      { href: '/about', text: 'About Us' },
-      { href: '/', text: 'Events' },
-      { href: '/blog', text: 'News' },
-      { href: '/service', text: 'Service' },
+      { href: '#story',      text: 'About Us'  },
+      { href: '#milestones', text: 'Roadmap'   },
+      { href: '#support',    text: 'Newsroom'  },
+      { href: '#donate',     text: 'Donate Us' },
     ],
   };
 
@@ -141,88 +103,67 @@ const Footer = () => {
     >
       <div className="container">
         <div className="cs_footer_row">
+
+          {/* ── Contact / brand column ───────────────────────────────────── */}
           <div className="cs_footer_col">
             <div className="cs_footer_highlight_col cs_accent_bg">
               <div className="cs_footer_logo">
-                <img src={data.logo} alt="Logo" />
+                <img src={data.logo} alt="Hallelujah Association Logo" />
               </div>
+
               <ul className="cs_footer_contact cs_mp_0">
                 <li>
-                  <i
-                    style={{
-                      display: 'flex',
-                      flexDirection: 'column',
-                      alignItems: 'flex-start',
-                    }}
-                  >
+                  <i style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                     <FaRegClock />
                   </i>
-                  <span
-                    dangerouslySetInnerHTML={{ __html: data.contactText }}
-                  />
+                  <span dangerouslySetInnerHTML={{ __html: data.contactText }} />
                 </li>
                 <li>
-                  <i
-                    style={{
-                      display: 'flex',
-                      flexDirection: 'column',
-                      alignItems: 'flex-start',
-                    }}
-                  >
+                  <i style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                     <FaLocationDot />
                   </i>
-                  <span
-                    dangerouslySetInnerHTML={{ __html: data.contactText2 }}
-                  />
+                  <span dangerouslySetInnerHTML={{ __html: data.contactText2 }} />
                 </li>
                 <li>
-                  <i
-                    style={{
-                      display: 'flex',
-                      flexDirection: 'column',
-                      alignItems: 'flex-start',
-                    }}
-                  >
+                  <i style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                     <FaPhoneAlt />
                   </i>
-                  <span
-                    dangerouslySetInnerHTML={{ __html: data.contactText3 }}
-                  />
+                  <span dangerouslySetInnerHTML={{ __html: data.contactText3 }} />
                 </li>
               </ul>
+
+              {/* Social — real external links, keep as <Link to> */}
               <div className="cs_social_btns cs_style_1">
                 <Link to={data.facebookHref} className="cs_center">
-                  <i>
-                    <FaFacebookF />
-                  </i>
+                  <i><FaFacebookF /></i>
                 </Link>
                 <Link to={data.pinterestHref} className="cs_center">
-                  <i>
-                    <FaPinterestP />
-                  </i>
+                  <i><FaPinterestP /></i>
                 </Link>
                 <Link to={data.twitterHref} className="cs_center">
-                  <i>
-                    <BsTwitter />
-                  </i>
+                  <i><BsTwitter /></i>
                 </Link>
                 <Link to={data.instagramHref} className="cs_center">
-                  <i>
-                    <FaInstagram />
-                  </i>
+                  <i><FaInstagram /></i>
                 </Link>
               </div>
             </div>
           </div>
 
+          {/* ── Widget columns (hash links → <a> + smoothScroll) ────────── */}
           {data.widgets.map((widget, index) => (
             <div className="cs_footer_col" key={index}>
               <div className="cs_footer_widget">
                 <h2 className="cs_footer_widget_title">{widget.title}</h2>
                 <ul className="cs_footer_widget_nav_list cs_mp_0">
-                  {widget.links.map((link, index) => (
-                    <li key={index}>
-                      <Link to={link.href}>{link.text}</Link>
+                  {widget.links.map((link, i) => (
+                    <li key={i}>
+                      <a
+                        href={link.href}
+                        onClick={(e) => smoothScroll(e, link.href)}
+                      >
+                        {link.text}
+                      </a>
                     </li>
                   ))}
                 </ul>
@@ -230,9 +171,10 @@ const Footer = () => {
             </div>
           ))}
 
+          {/* ── Recent posts (real routes → keep <Link to>) ─────────────── */}
           <div className="cs_footer_col">
             <div className="cs_footer_widget">
-              <h2 className="cs_footer_widget_title">Recent Posts</h2>
+              <h2 className="cs_footer_widget_title">Recent Updates</h2>
               <ul className="cs_recent_post_list cs_mp_0">
                 {data.recentPosts.map((post, index) => (
                   <li key={index}>
@@ -252,9 +194,11 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+
         </div>
       </div>
 
+      {/* ── Bottom bar ────────────────────────────────────────────────────── */}
       <div className="cs_footer_bottom cs_primary_bg">
         <div className="container">
           <div className="cs_footer_bottom_in">
@@ -262,7 +206,13 @@ const Footer = () => {
             <ul className="cs_footer_menu cs_mp_0">
               {data.footerMenu.map((item, index) => (
                 <li key={index}>
-                  <Link to={item.href}>{item.text}</Link>
+                  {/* Hash links → plain <a> with smoothScroll */}
+                  <a
+                    href={item.href}
+                    onClick={(e) => smoothScroll(e, item.href)}
+                  >
+                    {item.text}
+                  </a>
                 </li>
               ))}
             </ul>
