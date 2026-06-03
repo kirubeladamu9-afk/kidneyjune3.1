@@ -127,7 +127,7 @@ const serviceData = {
   subtitle: 'Strategic Pillars & Programs',
   title: 'Our Core Framework of Action',
   description:
-    'We are privileged to work with hundreds of future-thinking medial,<br> including many of the world’s top hardware, software, and<br> brands, feel safe and comfortable in establishing.',
+    'The association operates through structured program pillars designed to maximize patient survival rates, institutional transparency, and operational scalability.',
   services: [
     {
       backgroundImage: '/assets/img/service_bg.jpg',
