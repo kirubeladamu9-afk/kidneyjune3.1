@@ -203,7 +203,7 @@ const serviceData = {
 
 const teamData = {
   subtitle: 'OUR TEAM MEMBER',
-  title: ' Meet Our Specialist This <br />Doctor Meeting',
+  title: ' Organizational Structure <br />',
   sliderData: [
     {
       name: 'Dr. Norma Pedric',
