@@ -245,7 +245,7 @@ const teamData = {
     {
       name: 'Dr. Michael Thompson',
       profession: 'Volunteer & Operations Management',
-      imageUrl: '/static/assets/img/team_5.jpg',
+      imageUrl: 'https://cdn.builder.io/api/v1/image/assets%2F9007d8bf179e4f28b84a5500d86dd245%2Fe4a20d000091452e8b2a106e172dd85b?format=webp&width=800&height=1200',
       link: '#team',
       facebook: '/',
       pinterest: '/',
