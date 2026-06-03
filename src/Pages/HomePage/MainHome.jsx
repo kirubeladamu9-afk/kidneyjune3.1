@@ -72,11 +72,9 @@ const ctaData = {
 
 const aboutData = {
   sectionSubtitle: 'OUR ABOUT US',
-  sectionTitle: 'From Air Force Veteran to a National Mission of Care',
+  sectionTitle: 'More Than 26+ Years About Provide Medical.',
   aboutText:
-    'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establIn 1977 E.C.',
-
-After finishing his interrupted education and earning his Accounting Degree from Rift Valley College, he built a peaceful life. But in 2017 E.C., life changed completely. His wife, Wbro. Alemnesh Mekonnen—the dedicated Kality Branch Manager for Nile Insurance—suffered sudden double kidney failure.ishing.',
+    'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establishing.',
   service:
     "There are many variations of pass available this medical service the team <a href='#''>READ MORE +</a>",
   experienceYears: '26+',
