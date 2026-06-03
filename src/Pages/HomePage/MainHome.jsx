@@ -466,7 +466,7 @@ const medicalTabsData = {
   tabsData: [
     {
       id: 'dialysis_subsidy',
-      imageSrc: 'assets/img/post_6.jpeg',
+      imageSrc: '/static/assets/img/post_6.jpeg',
       title: 'Easing the Financial Burden of Dialysis Care',
       subtitle:
         'We work strategically with local diagnostic centers to lower medical barriers, helping subsidize standard dialysis treatments for low-income patients who cannot afford the continuous cost of chronic care.',
@@ -485,7 +485,7 @@ const medicalTabsData = {
     },
     {
       id: 'office_drive',
-      imageSrc: 'assets/img/post_5.jpeg',
+      imageSrc: '/static/assets/img/post_5.jpeg',
       title: 'Establishing Our Administrative Infrastructure',
       subtitle:
         'To effectively transition operations into a fully scalable public hub, the association coordinates material donation drives specifically designed to equip our core Akaki Kality headquarters.',
@@ -504,7 +504,7 @@ const medicalTabsData = {
     },
     {
       id: 'volunteer_hub',
-      imageSrc: 'assets/img/post_1.jpeg',
+      imageSrc: '/static/assets/img/post_1.jpeg',
       title: 'Mobilizing Professional Skills for Public Relief',
       subtitle:
         'Building a lasting humanitarian utility requires diverse institutional skillsets. We invite professionals across sectors to contribute to our administrative and medical operations.',
@@ -523,7 +523,7 @@ const medicalTabsData = {
     },
     {
       id: 'partnerships',
-      imageSrc: 'assets/img/post_3.jpeg',
+      imageSrc: '/static/assets/img/post_3.jpeg',
       title: 'Strategic Corporate Social Responsibility',
       subtitle:
         'We align our structural workflows with the CSR frameworks of financial institutions, insurance corporations, and enterprises to implement robust, scalable community health programs.',
