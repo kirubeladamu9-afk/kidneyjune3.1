@@ -101,23 +101,23 @@ const aboutData = {
 const countersData = [
   {
     iconUrl: '/assets/img/icons/counter_icon_1.png',
-    number: '13,500 ETB+',
-    title: 'Average Weekly Cost per Patient',
+    number: '13500', // Rendered as plain number for your counter animation component to handle
+    title: 'Weekly Cost (ETB) per Patient',
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_2.png',
-    number: '3x',
-    title: 'Weekly Mandatory Treatment Frequency',
+    number: '3',
+    title: 'Mandatory Weekly Sessions',
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_3.png',
-    number: '100%',
-    title: 'Non-Profit Transparency & Compliance',
+    number: '100', // Represents 100% compliance/transparency focus
+    title: '% Audited Transparency',
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_4.png',
-    number: '2018 E.C.',
-    title: 'Founded for Institutional Relief',
+    number: '2018', // Federal Civil Society Organization establishment year (E.C.)
+    title: 'Established (E.C.)',
   },
 ];
 
