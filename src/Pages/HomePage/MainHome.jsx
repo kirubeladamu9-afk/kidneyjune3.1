@@ -412,6 +412,18 @@ const projectData = {
   ],
 };
 
+const ctaData1 = {
+  videoLink: 'https://www.youtube.com/embed/rRid6GCJtgc',
+  videoButtonText: 'WATCH VIDEO',
+  subtitle: 'OUR WATCH VIDEO',
+  title: 'Professional Medical Care Measure Medical.',
+  description:
+    'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands , feel safe and comfortable in establishing.',
+  buttonLink: '/contact',
+  buttonText: 'Video More',
+  brandImage: 'assets/img/medical_brand.png',
+};
+
 const medicalTabsData = {
   subtitle: 'Service Offerings',
   title: 'Explore Our Service<br> Offerings',
