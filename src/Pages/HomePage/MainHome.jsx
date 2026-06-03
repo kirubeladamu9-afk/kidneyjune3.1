@@ -54,9 +54,9 @@ const heroData = {
     },
   ],
   secondarySlider: [
-    'assets/img/hero_slider_sm_1.png',
-    'assets/img/hero_slider_sm_2.png',
-    'assets/img/hero_slider_sm_3.png',
+    'https://cdn.builder.io/api/v1/image/assets%2F9007d8bf179e4f28b84a5500d86dd245%2Fdc7d84f9a79c42c2bfa36ed6750940f8?format=webp&width=800&height=1200',
+    'https://cdn.builder.io/api/v1/image/assets%2F9007d8bf179e4f28b84a5500d86dd245%2Fcd7935c5a9974130b40595868dbce063?format=webp&width=800&height=1200',
+    'https://cdn.builder.io/api/v1/image/assets%2F9007d8bf179e4f28b84a5500d86dd245%2Ff49a49aa71e24ea18a1e4a5c6e1af159?format=webp&width=800&height=1200',
   ],
 };
 
