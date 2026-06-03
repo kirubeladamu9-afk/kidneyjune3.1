@@ -4,12 +4,10 @@ import About from '../../Components/About/index.jsx';
 import CounterSection from '../../Components/FunSection/CounterSection.jsx';
 import Service from '../../Components/Service/index.jsx';
 import TeamSection from '../../Components/TeamSection/index.jsx';
-import BrandsSlider from '../../Components/BrandsSection/index.jsx';
 import ChooseUs from '../../Components/ChooseUs/index.jsx';
 import ProjectSection from '../../Components/ProjectSection/index.jsx';
 import CtaSection1 from '../../Components/CtaSection.jsx/CtaSection1.jsx';
 import MedicalTabSection from '../../Components/MedicalTabSection/index.jsx';
-import BlogSection from '../../Components/BlogsSection/index.jsx';
 import Section from '../../Components/Section/index.jsx';
 import ContactSection2 from '../../Components/ContactSection/ContactSection2.jsx';
 
@@ -258,48 +256,29 @@ const teamData = {
   ],
 };
 
-const brandData = [
-  { image: '/assets/img/envato-logo.png', altText: 'Brand 1' },
-  { image: '/assets/img/envato-logo.png', altText: 'Brand 2' },
-  { image: '/assets/img/envato-logo.png', altText: 'Brand 3' },
-  { image: '/assets/img/envato-logo.png', altText: 'Brand 4' },
-  { image: '/assets/img/envato-logo.png', altText: 'Brand 5' },
-  { image: '/assets/img/envato-logo.png', altText: 'Brand 6' },
-];
-
 const sectionData = {
-  subtitle: 'WHY PARTNER WITH US',
-  title: 'A Certified, Accountable Framework <br /> For Public Healthcare Relief.',
+  subtitle: 'Corporate Governance & Trust',
+  title: 'Built on Accountability, Audited for Trust',
   services: [
     {
       iconUrl: '/assets/img/icons/service_icon_9.png',
-      title: 'Full CSO Accreditation',
-      subtitle: 'Legally certified and fully recognized under the Federal Civil Society Organizations Authority.',
+      title: 'Legal Charter',
+      subtitle: 'Operating strictly under the official charter approved by the Civil Society Organizations Authority.',
     },
     {
       iconUrl: '/assets/img/icons/service_icon_10.png',
-      title: 'Audited Transparency',
-      subtitle: 'Strict structural financial reporting guarantees every resource reaches direct patient subsidies.',
+      title: 'Financial Fidelity',
+      subtitle: 'Every resource, financial contribution, or material item pledged is logged, audited, and strictly allocated to patient care and institutional growth.',
     },
     {
       iconUrl: '/assets/img/icons/service_icon_11.png',
-      title: 'Zero Overhead Waste',
-      subtitle: 'Operating out of a localized grassroots hub ensures funds target patient care over corporate costs.',
+      title: 'Corporate Partnerships',
+      subtitle: 'Designed to seamlessly integrate with CSR (Corporate Social Responsibility) programs of local banks, insurance companies, and enterprises.',
     },
     {
       iconUrl: '/assets/img/icons/service_icon_12.png',
-      title: 'Verified Intake Registry',
-      subtitle: 'An objective data evaluation framework prioritizes low-income families facing severe medical crises.',
-    },
-    {
-      iconUrl: '/assets/img/icons/service_icon_13.png',
-      title: 'Institutional Scalability',
-      subtitle: 'Backed by a long-term strategic roadmap to scale from local relief into a regional public utility.',
-    },
-    {
-      iconUrl: '/assets/img/icons/service_icon_14.png',
-      title: 'Direct Strategic Impact',
-      subtitle: 'Seamlessly matches corporate social responsibility programs directly with local community needs.',
+      title: 'Medical Advices',
+      subtitle: 'Medical competitor research startup to financial',
     },
   ],
 };
@@ -423,15 +402,15 @@ const projectData = {
 };
 
 const ctaData1 = {
-  videoLink: 'https://www.youtube.com/embed/rRid6GCJtgc', // Replace with the association's promotional or introductory video if available
-  videoButtonText: 'WATCH OVERVIEW',
-  subtitle: 'OPERATIONAL TRANSPARENCY',
-  title: 'Constructing a Scalable Public Utility for Chronic Healthcare.',
+  videoLink: 'https://www.youtube.com/embed/rRid6GCJtgc',
+  videoButtonText: 'WATCH VIDEO',
+  subtitle: 'OUR WATCH VIDEO',
+  title: 'Professional Medical Care Measure Medical.',
   description:
-    'Hallelujah Kidney Patients Association acts as a direct link between corporate social responsibility programs, global philanthropy networks, and high-impact medical relief. Every operational milestone is structurally logged and audited to guarantee complete administrative accountability.',
-  buttonLink: '#contact',
-  buttonText: 'Partner With Us',
-  brandImage: 'assets/img/medical_brand.png', // This will render nicely as a stamp of certification or the association insignia next to the text
+    'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands , feel safe and comfortable in establishing.',
+  buttonLink: '/contact',
+  buttonText: 'Video More',
+  brandImage: 'assets/img/medical_brand.png',
 };
 
 const medicalTabsData = {
@@ -539,65 +518,6 @@ const medicalTabsData = {
   ],
 };
 
-const blogsData = {
-  sectionTitle: 'OUR LARGEST BLOG',
-  sectionSubtitle: 'Latest Posts &amp; Articles',
-  postsData: [
-    {
-      title: 'Medical Of This Working Health Blog',
-      subtitle:
-        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
-      date: 'May 02',
-      category: 'Medical',
-      author: 'Admin',
-      thumbnail: '/assets/img/post_1.jpeg',
-      btnText: 'Read More',
-      postLink: '/blog/blog-details',
-      authorIcon: '/assets/img/icons/post_user_icon.png',
-      commentIcon: '/assets/img/icons/post_comment_icon.png',
-    },
-    {
-      title: 'There Is Only One Thing That Is Hospital.',
-      subtitle:
-        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
-      date: 'May 02',
-      category: 'Medical',
-      author: 'Admin',
-      thumbnail: 'assets/img/post_2.jpeg',
-      btnText: 'Read More',
-      postLink: '/blog/blog-details',
-      authorIcon: '/assets/img/icons/post_user_icon.png',
-      commentIcon: '/assets/img/icons/post_comment_icon.png',
-    },
-    {
-      title: 'This Working World and Infection Prevention.',
-      subtitle:
-        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
-      date: 'May 02',
-      category: 'Medical',
-      author: 'Admin',
-      thumbnail: 'assets/img/post_3.jpeg',
-      btnText: 'Read More',
-      postLink: '/blog/blog-details',
-      authorIcon: '/assets/img/icons/post_user_icon.png',
-      commentIcon: '/assets/img/icons/post_comment_icon.png',
-    },
-    {
-      title: 'Medical Of This Working Health Blog',
-      subtitle:
-        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
-      date: 'May 02',
-      category: 'Medical',
-      author: 'Admin',
-      thumbnail: 'assets/img/post_1.jpeg',
-      btnText: 'Read More',
-      postLink: '/blog/blog-details',
-      authorIcon: '/assets/img/icons/post_user_icon.png',
-      commentIcon: '/assets/img/icons/post_comment_icon.png',
-    },
-  ],
-};
-
 const MainHome = () => {
   return (
     <>
@@ -660,12 +580,6 @@ const MainHome = () => {
         />
       </Section>
       {/* End Team Section */}
-      {/* Start Brand Section */}
-      <Section topSpaceLg="70" topSpaceMd="90" className="cs_brands_section">
-        <BrandsSlider data={brandData} />
-      </Section>
-
-      {/* End Brand Section */}
       {/* Start Why Choose Us Section */}
 
       <Section
@@ -708,19 +622,11 @@ const MainHome = () => {
       {/* End Medical Tab Section */}
       {/* Start Contact Solution */}
 
-      <ContactSection2></ContactSection2>
+      <Section bottomSpaceLg="70" bottomSpaceMd="110">
+        <ContactSection2 />
+      </Section>
 
       {/* End Contact Solution */}
-      {/* Start Blog Section */}
-
-      <Section
-        topSpaceLg="70"
-        topSpaceMd="110"
-        bottomSpaceLg="80"
-        bottomSpaceMd="120"
-      >
-        <BlogSection data={blogsData} />
-      </Section>
     </>
   );
 };
