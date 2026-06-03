@@ -9,6 +9,7 @@ import ChooseUs from '../../Components/ChooseUs/index.jsx';
 import ProjectSection from '../../Components/ProjectSection/index.jsx';
 import CtaSection1 from '../../Components/CtaSection.jsx/CtaSection1.jsx';
 import MedicalTabSection from '../../Components/MedicalTabSection/index.jsx';
+import BlogSection from '../../Components/BlogsSection/index.jsx';
 import Section from '../../Components/Section/index.jsx';
 import ContactSection2 from '../../Components/ContactSection/ContactSection2.jsx';
 
@@ -412,15 +413,15 @@ const projectData = {
 };
 
 const ctaData1 = {
-  videoLink: 'https://www.youtube.com/embed/rRid6GCJtgc',
-  videoButtonText: 'WATCH VIDEO',
-  subtitle: 'OUR WATCH VIDEO',
-  title: 'Professional Medical Care Measure Medical.',
+  videoLink: 'https://www.youtube.com/embed/rRid6GCJtgc', // Replace with the association's promotional or introductory video if available
+  videoButtonText: 'WATCH OVERVIEW',
+  subtitle: 'OPERATIONAL TRANSPARENCY',
+  title: 'Constructing a Scalable Public Utility for Chronic Healthcare.',
   description:
-    'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands , feel safe and comfortable in establishing.',
-  buttonLink: '/contact',
-  buttonText: 'Video More',
-  brandImage: 'assets/img/medical_brand.png',
+    'Hallelujah Kidney Patients Association acts as a direct link between corporate social responsibility programs, global philanthropy networks, and high-impact medical relief. Every operational milestone is structurally logged and audited to guarantee complete administrative accountability.',
+  buttonLink: '#contact',
+  buttonText: 'Partner With Us',
+  brandImage: 'assets/img/medical_brand.png', // This will render nicely as a stamp of certification or the association insignia next to the text
 };
 
 const medicalTabsData = {
@@ -524,6 +525,65 @@ const medicalTabsData = {
       ],
       linkHref: '#contact',
       buttonText: 'Partner With Us',
+    },
+  ],
+};
+
+const blogsData = {
+  sectionTitle: 'OUR LARGEST BLOG',
+  sectionSubtitle: 'Latest Posts &amp; Articles',
+  postsData: [
+    {
+      title: 'Medical Of This Working Health Blog',
+      subtitle:
+        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
+      date: 'May 02',
+      category: 'Medical',
+      author: 'Admin',
+      thumbnail: '/assets/img/post_1.jpeg',
+      btnText: 'Read More',
+      postLink: '/blog/blog-details',
+      authorIcon: '/assets/img/icons/post_user_icon.png',
+      commentIcon: '/assets/img/icons/post_comment_icon.png',
+    },
+    {
+      title: 'There Is Only One Thing That Is Hospital.',
+      subtitle:
+        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
+      date: 'May 02',
+      category: 'Medical',
+      author: 'Admin',
+      thumbnail: 'assets/img/post_2.jpeg',
+      btnText: 'Read More',
+      postLink: '/blog/blog-details',
+      authorIcon: '/assets/img/icons/post_user_icon.png',
+      commentIcon: '/assets/img/icons/post_comment_icon.png',
+    },
+    {
+      title: 'This Working World and Infection Prevention.',
+      subtitle:
+        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
+      date: 'May 02',
+      category: 'Medical',
+      author: 'Admin',
+      thumbnail: 'assets/img/post_3.jpeg',
+      btnText: 'Read More',
+      postLink: '/blog/blog-details',
+      authorIcon: '/assets/img/icons/post_user_icon.png',
+      commentIcon: '/assets/img/icons/post_comment_icon.png',
+    },
+    {
+      title: 'Medical Of This Working Health Blog',
+      subtitle:
+        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
+      date: 'May 02',
+      category: 'Medical',
+      author: 'Admin',
+      thumbnail: 'assets/img/post_1.jpeg',
+      btnText: 'Read More',
+      postLink: '/blog/blog-details',
+      authorIcon: '/assets/img/icons/post_user_icon.png',
+      commentIcon: '/assets/img/icons/post_comment_icon.png',
     },
   ],
 };
@@ -638,11 +698,19 @@ const MainHome = () => {
       {/* End Medical Tab Section */}
       {/* Start Contact Solution */}
 
-      <Section bottomSpaceLg="70" bottomSpaceMd="110">
-        <ContactSection2 />
-      </Section>
+      <ContactSection2></ContactSection2>
 
       {/* End Contact Solution */}
+      {/* Start Blog Section */}
+
+      <Section
+        topSpaceLg="70"
+        topSpaceMd="110"
+        bottomSpaceLg="80"
+        bottomSpaceMd="120"
+      >
+        <BlogSection data={blogsData} />
+      </Section>
     </>
   );
 };
