@@ -64,8 +64,8 @@ const heroData = {
 
 const ctaData = {
   imageUrl: '/assets/img/cta_img_1.jpg',
-  title: 'Meet The Team Support Medical Service.',
-  subtitle: 'For us, there are no minor aspects, because a quality',
+  title: 'Legally Registered. by the Civil Society Organizations Authority.',
+  subtitle: 'on Megabit 8, 2018 E.C',
   buttonUrl: '/appointments',
   buttonText: 'Booking Now',
 };
