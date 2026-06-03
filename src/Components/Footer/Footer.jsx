@@ -9,128 +9,60 @@ import {
 } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
-const data = {
-  backgroundImage: 'assets/img/footer_bg.jpg',
-  logo: '/assets/img/footer_logo.svg',
-  contact: [
-    {
-      icon: 'fa-regular fa-clock',
-      text: 'Open Hours of Government: <br /> Mon - Fri: 8.00 am. - 6.00 pm.',
-    },
-    {
-      icon: 'fa-solid fa-location-dot',
-      text: '13/A, Miranda Halim City.',
-    },
-    {
-      icon: 'fa-solid fa-phone',
-      text: '099 695 695 35',
-    },
-  ],
-  socialLinks: [
-    { href: '#', icon: 'fa-brands fa-facebook-f' },
-    { href: '#', icon: 'fa-brands fa-pinterest-p' },
-    { href: '#', icon: 'fa-brands fa-twitter' },
-    { href: '#', icon: 'fa-brands fa-instagram' },
-  ],
-  widgets: [
-    {
-      title: 'Service',
-      links: [
-        { href: '#', text: 'Why choose us' },
-        { href: '#', text: 'Our solutions' },
-        { href: '#', text: 'Partners' },
-        { href: '#', text: 'Core values' },
-        { href: '#', text: 'Our projects' },
-      ],
-    },
-    {
-      title: 'Quick Link',
-      links: [
-        { href: '#', text: 'Residents' },
-        { href: '#', text: 'Business' },
-        { href: '#', text: 'Online Service' },
-        { href: '#', text: 'Visiting' },
-        { href: '#', text: 'Employment' },
-      ],
-    },
-  ],
-  recentPosts: [
-    {
-      href: '/blog/blog-details',
-      image: 'assets/img/recent_post_1.png',
-      date: '23 jun 2024',
-      title: 'We round Solution york Blog',
-    },
-    {
-      href: '/blog/blog-details',
-      image: 'assets/img/recent_post_2.png',
-      date: '20 jun 2024',
-      title: 'The Medical Of This Working Health',
-    },
-  ],
-  copyrightText: 'Copyright © 2024 Medilo, All Rights Reserved.',
-  footerMenu: [
-    { href: 'about.html', text: 'About Us' },
-    { href: '#', text: 'Events' },
-    { href: 'blog.html', text: 'News' },
-    { href: 'service.html', text: 'Service' },
-  ],
-};
-
 const Footer = () => {
   const data = {
     backgroundImage: '/assets/img/footer_bg.jpg',
     logo: '/assets/img/footer_logo.svg',
     contactText:
-      'Open Hours of Government: <br /> Mon - Fri: 8.00 am. - 6.00 pm.',
-    contactText2: '13/A, Miranda Halim City.',
-    contactText3: '099 695 695 35',
+      'Association Core Hours: <br /> Mon - Fri: 8:30 am. - 5:30 pm.',
+    contactText2: 'Akaki Kality Sub-City, Central Office, Addis Ababa, Ethiopia.',
+    contactText3: '+251 911 000 000', // Update with actual phone number when available
     facebookHref: '/',
     pinterestHref: '/',
     twitterHref: '/',
     instagramHref: '/',
     widgets: [
       {
-        title: 'Service',
+        title: 'Core Framework',
         links: [
-          { href: '/service/service-details', text: 'Plastic Surgery' },
-          { href: '/service/service-details', text: 'Pharmacology' },
-          { href: '/service/service-details', text: 'Dental Care' },
-          { href: '/service/service-details', text: 'Dental Care' },
-          { href: '/service/service-details', text: 'Orthopedic' },
+          { href: '#dialysis_subsidy', text: 'Dialysis Subsidies' },
+          { href: '#office_drive', text: 'Material Support' },
+          { href: '#volunteer_hub', text: 'Volunteer Network' },
+          { href: '#partnerships', text: 'Corporate Alliances' },
+          { href: '#preventative_health', text: 'Preventative Advocacy' },
         ],
       },
       {
-        title: 'Quick Link',
+        title: 'Quick Links',
         links: [
-          { href: '/', text: 'Home' },
-          { href: '/about', text: 'About Us' },
-          { href: '/service', text: 'Our Services' },
-          { href: '/portfolio', text: 'Our Portfolio' },
-          { href: '/contact', text: 'Contact' },
+          { href: '/', text: 'Home Portal' },
+          { href: '#story', text: 'Who We Are' },
+          { href: '#pillars', text: 'Our Pillars' },
+          { href: '#milestones', text: 'Strategic Roadmap' },
+          { href: '#donate', text: 'Resource Mobilization' },
         ],
       },
     ],
     recentPosts: [
       {
-        href: '/blog/blog-details',
+        href: '/blog/patient-protocols',
         image: '/assets/img/recent_post_1.png',
-        date: '23 jun 2024',
-        title: 'We round Solution york Blog',
+        date: '02 Jun 2026',
+        title: 'Standardizing Patient Registration Criteria for Transparency',
       },
       {
-        href: '/blog/blog-details',
+        href: '/blog/infrastructure-mobilization',
         image: '/assets/img/recent_post_2.png',
-        date: '20 jun 2024',
-        title: 'The Medical Of This Working Health',
+        date: '28 May 2026',
+        title: 'Launching the Administrative Hub Equipment Drive',
       },
     ],
-    copyrightText: 'Copyright © 2024 Medilo, All Rights Reserved.',
+    copyrightText: 'Copyright © 2026 Hallelujah Kidney Patients Association. All Rights Reserved.',
     footerMenu: [
-      { href: '/about', text: 'About Us' },
-      { href: '/', text: 'Events' },
-      { href: '/blog', text: 'News' },
-      { href: '/service', text: 'Service' },
+      { href: '#story', text: 'About Us' },
+      { href: '#milestones', text: 'Roadmap' },
+      { href: '#blog', text: 'Newsroom' },
+      { href: '#donate', text: 'Donate Us' },
     ],
   };
 
@@ -144,7 +76,7 @@ const Footer = () => {
           <div className="cs_footer_col">
             <div className="cs_footer_highlight_col cs_accent_bg">
               <div className="cs_footer_logo">
-                <img src={data.logo} alt="Logo" />
+                <img src={data.logo} alt="Hallelujah Association Logo" />
               </div>
               <ul className="cs_footer_contact cs_mp_0">
                 <li>
@@ -232,7 +164,7 @@ const Footer = () => {
 
           <div className="cs_footer_col">
             <div className="cs_footer_widget">
-              <h2 className="cs_footer_widget_title">Recent Posts</h2>
+              <h2 className="cs_footer_widget_title">Recent Updates</h2>
               <ul className="cs_recent_post_list cs_mp_0">
                 {data.recentPosts.map((post, index) => (
                   <li key={index}>
