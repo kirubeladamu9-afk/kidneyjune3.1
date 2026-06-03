@@ -295,10 +295,10 @@ const sectionData = {
 };
 
 const projectData = {
-  title: 'All The Great Work That<br> Medical Service',
+  title: 'Operational Milestones',
   subtitle: 'OUR PORTFOLIO',
   description:
-    'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establishing.',
+    'Association Milestone Tracking',
   tabs: [
     { id: 'dental', label: 'Dental' },
     { id: 'cardiology', label: 'Cardiology' },
