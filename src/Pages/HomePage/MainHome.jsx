@@ -543,19 +543,6 @@ const medicalTabsData = {
   ],
 };
 
-// Smooth scroll utility — offset accounts for sticky header height
-const scrollToSection = (href) => {
-  if (!href || href === '#') {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    return;
-  }
-  const target = document.querySelector(href);
-  if (target) {
-    const offset = 100;
-    const top = target.getBoundingClientRect().top + window.scrollY - offset;
-    window.scrollTo({ top, behavior: 'smooth' });
-  }
-};
 
 const MainHome = () => {
   return (

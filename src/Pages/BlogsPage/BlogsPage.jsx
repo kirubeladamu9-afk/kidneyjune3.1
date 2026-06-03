@@ -1,4 +1,3 @@
-import React from 'react';
 import PageHeading from '../../Components/PageHeading';
 
 import BlogsSection1 from '../../Components/BlogsSection/BlogsSection1';

@@ -4,7 +4,7 @@ import { FaCalendarAlt, FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const BlogsLeft = ({ data }) => {
-  const [rating, setRating] = useState();
+  const [, setRating] = useState();
   return (
     <>
       <div className="col-lg-8">

@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 const TestimonialSection = ({ data }) => {
-  const [rating, setRating] = useState();
+  const [, setRating] = useState();
   const settings = {
     dots: true,
     infinite: true,

@@ -1,4 +1,3 @@
-import React from "react";
 import { FaCalendarAlt, FaChevronCircleRight } from "react-icons/fa";
 import { FaArrowRightLong, FaMagnifyingGlass } from "react-icons/fa6";
 import { Link } from "react-router-dom";

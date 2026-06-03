@@ -3,7 +3,7 @@ import { useState } from "react";
 import Slider from "react-slick";
 
 const DentalSolution = ({ data }) => {
-  const [rating, setRating] = useState();
+  const [, setRating] = useState();
 
   const settings = {
     dots: true,

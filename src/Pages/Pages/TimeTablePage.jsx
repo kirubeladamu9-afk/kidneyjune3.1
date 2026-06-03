@@ -1,4 +1,3 @@
-import React from "react";
 import PageHeading from "../../Components/PageHeading";
 import TimelineSection from "../../Components/TimelineSection";
 import Section from "../../Components/Section";
