@@ -62,10 +62,10 @@ const heroData = {
 
 const ctaData = {
   imageUrl: '/assets/img/cta_img_1.jpg',
-  title: 'Legally Registered. by the Civil Society Organizations Authority.',
-  subtitle: 'on Megabit 8, 2018 E.C',
-  buttonUrl: '/appointments',
-  buttonText: 'View Legal Certificate',
+  title: 'An Accountable, Governed Executive Structure.',
+  subtitle: 'Our executive board and medical advisory committee ensure compliance, transparency, and impact.',
+  buttonUrl: '#contact',
+  buttonText: 'Partner With Us',
 };
 
 const aboutData = {
