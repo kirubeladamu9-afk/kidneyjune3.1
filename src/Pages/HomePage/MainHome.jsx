@@ -257,28 +257,38 @@ const teamData = {
 };
 
 const sectionData = {
-  subtitle: 'Corporate Governance & Trust',
-  title: 'Built on Accountability, Audited for Trust',
+  subtitle: 'WHY PARTNER WITH US',
+  title: 'A Certified, Accountable Framework <br /> For Public Healthcare Relief.',
   services: [
     {
       iconUrl: '/assets/img/icons/service_icon_9.png',
-      title: 'Legal Charter',
-      subtitle: 'Operating strictly under the official charter approved by the Civil Society Organizations Authority.',
+      title: 'Full CSO Accreditation',
+      subtitle: 'Legally certified and fully recognized under the Federal Civil Society Organizations Authority.',
     },
     {
       iconUrl: '/assets/img/icons/service_icon_10.png',
-      title: 'Financial Fidelity',
-      subtitle: 'Every resource, financial contribution, or material item pledged is logged, audited, and strictly allocated to patient care and institutional growth.',
+      title: 'Audited Transparency',
+      subtitle: 'Strict structural financial reporting guarantees every resource reaches direct patient subsidies.',
     },
     {
       iconUrl: '/assets/img/icons/service_icon_11.png',
-      title: 'Corporate Partnerships',
-      subtitle: 'Designed to seamlessly integrate with CSR (Corporate Social Responsibility) programs of local banks, insurance companies, and enterprises.',
+      title: 'Zero Overhead Waste',
+      subtitle: 'Operating out of a localized grassroots hub ensures funds target patient care over corporate costs.',
     },
     {
       iconUrl: '/assets/img/icons/service_icon_12.png',
-      title: 'Medical Advices',
-      subtitle: 'Medical competitor research startup to financial',
+      title: 'Verified Intake Registry',
+      subtitle: 'An objective data evaluation framework prioritizes low-income families facing severe medical crises.',
+    },
+    {
+      iconUrl: '/assets/img/icons/service_icon_13.png',
+      title: 'Institutional Scalability',
+      subtitle: 'Backed by a long-term strategic roadmap to scale from local relief into a regional public utility.',
+    },
+    {
+      iconUrl: '/assets/img/icons/service_icon_14.png',
+      title: 'Direct Strategic Impact',
+      subtitle: 'Seamlessly matches corporate social responsibility programs directly with local community needs.',
     },
   ],
 };
@@ -402,15 +412,15 @@ const projectData = {
 };
 
 const ctaData1 = {
-  videoLink: 'https://www.youtube.com/embed/rRid6GCJtgc',
-  videoButtonText: 'WATCH VIDEO',
-  subtitle: 'OUR WATCH VIDEO',
-  title: 'Professional Medical Care Measure Medical.',
+  videoLink: 'https://www.youtube.com/embed/rRid6GCJtgc', // Replace with the association's promotional or introductory video if available
+  videoButtonText: 'WATCH OVERVIEW',
+  subtitle: 'OPERATIONAL TRANSPARENCY',
+  title: 'Constructing a Scalable Public Utility for Chronic Healthcare.',
   description:
-    'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands , feel safe and comfortable in establishing.',
-  buttonLink: '/contact',
-  buttonText: 'Video More',
-  brandImage: 'assets/img/medical_brand.png',
+    'Hallelujah Kidney Patients Association acts as a direct link between corporate social responsibility programs, global philanthropy networks, and high-impact medical relief. Every operational milestone is structurally logged and audited to guarantee complete administrative accountability.',
+  buttonLink: '#contact',
+  buttonText: 'Partner With Us',
+  brandImage: 'assets/img/medical_brand.png', // This will render nicely as a stamp of certification or the association insignia next to the text
 };
 
 const medicalTabsData = {
