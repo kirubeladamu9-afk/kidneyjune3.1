@@ -107,7 +107,7 @@ const countersData = [
   {
     iconUrl: '/assets/img/icons/counter_icon_2.png',
     number: '3',
-    title: 'Mandatory Weekly Sessions',
+    title: 'Weekly Sessions',
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_3.png',
