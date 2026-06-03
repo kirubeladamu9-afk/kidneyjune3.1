@@ -69,31 +69,31 @@ const ctaData = {
 };
 
 const aboutData = {
-  sectionSubtitle: 'OUR ABOUT US',
-  sectionTitle: 'Building Ethiopia’s Next Essential Public Healthcare Institution',
+  sectionSubtitle: 'INSTITUTIONAL PROFILE',
+  sectionTitle: 'Building Ethiopia’s Next Essential Public Healthcare Foundation',
   aboutText:
-    'Hallelujah Kidney Patients Association was established to address a critical gap in chronic healthcare infrastructure. For thousands of families in Ethiopia, managing advanced kidney disease is a catastrophic financial and logistical burden. With a single standard dialysis session costing 4,500 ETB—required three times a week—the economic strain quickly outpaces a familys regular income, leading to preventable loss of life.',
+    'Hallelujah Kidney Patients Association was established to address a critical gap in chronic healthcare infrastructure. For thousands of families in Ethiopia, managing advanced kidney disease is a catastrophic financial and logistical burden that demands structured, transparent, and permanent intervention.',
   service:
-    "Our ultimate objective mirrors the institutional scale of pioneering organizations like Macedonia and the Abebech Gobena Association. We are not just managing a crisis; we are constructing a permanent foundation for public healthcare relief. <a href='#''>READ MORE +</a>",
-  experienceYears: '26+',
-  experienceTitle: 'Experience',
+    "Our ultimate objective mirrors the institutional scale of pioneering national organizations like Macedonia and the Abebech Gobena Association. <a href='#story'>LEARN MORE +</a>",
+  experienceYears: '2018',
+  experienceTitle: 'Founded (E.C.)',
   videoUrl: 'https://www.youtube.com/embed/rRid6GCJtgc',
-  videoText: 'How We Work',
+  videoText: 'Our Vision',
   iconboxes: [
     {
       imgUrl: '/assets/img/icons/about_icon_1.png',
-      title: 'Client Support',
-      subtitle: 'But must explain to you medical of and pain was.',
+      title: 'Patient Allocation Registry',
+      subtitle: 'A data-driven evaluation process prioritizing low-income individuals for direct subsidies.',
     },
     {
       imgUrl: '/assets/img/icons/about_icon_2.png',
-      title: 'Doctor Support',
-      subtitle: 'But must explain to you medical of and pain was.',
+      title: 'Regulatory Accountability',
+      subtitle: 'Operating strictly under charter guidelines approved by the Civil Society Authority.',
     },
   ],
 
-  btnUrl: '/about',
-  btnText: 'About More',
+  btnUrl: '#story',
+  btnText: 'View Charter Details',
   sectionImgUrl: 'assets/img/about_section_img_1.png',
   headImgUrl: 'assets/img/about_img_1.jpg',
 };
