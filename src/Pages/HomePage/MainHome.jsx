@@ -78,7 +78,7 @@ const aboutData = {
 
 After finishing his interrupted education and earning his Accounting Degree from Rift Valley College, he built a peaceful life. But in 2017 E.C., life changed completely. His wife, Wbro. Alemnesh Mekonnen—the dedicated Kality Branch Manager for Nile Insurance—suffered sudden double kidney failure.ishing.',
   service:
-    "Ato Aschalew Kassaye answered the call of duty, training at the Dedessa National Military Training Center before serving for 3 years in the Ethiopian Air Force. When conflict escalated in 1980 E.C., he returned to the front lines, serving honorably under the 29th Mechanized Brigade in Asmara until returning home in 1983 E.C. <a href='#''>READ MORE +</a>",
+    "There are many variations of pass available this medical service the team <a href='#''>READ MORE +</a>",
   experienceYears: '26+',
   experienceTitle: 'Experience',
   videoUrl: 'https://www.youtube.com/embed/rRid6GCJtgc',
