@@ -9,7 +9,6 @@ import ChooseUs from '../../Components/ChooseUs/index.jsx';
 import ProjectSection from '../../Components/ProjectSection/index.jsx';
 import CtaSection1 from '../../Components/CtaSection.jsx/CtaSection1.jsx';
 import MedicalTabSection from '../../Components/MedicalTabSection/index.jsx';
-import BlogSection from '../../Components/BlogsSection/index.jsx';
 import Section from '../../Components/Section/index.jsx';
 import ContactSection2 from '../../Components/ContactSection/ContactSection2.jsx';
 
@@ -529,65 +528,6 @@ const medicalTabsData = {
   ],
 };
 
-const blogsData = {
-  sectionTitle: 'OUR LARGEST BLOG',
-  sectionSubtitle: 'Latest Posts &amp; Articles',
-  postsData: [
-    {
-      title: 'Medical Of This Working Health Blog',
-      subtitle:
-        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
-      date: 'May 02',
-      category: 'Medical',
-      author: 'Admin',
-      thumbnail: '/assets/img/post_1.jpeg',
-      btnText: 'Read More',
-      postLink: '/blog/blog-details',
-      authorIcon: '/assets/img/icons/post_user_icon.png',
-      commentIcon: '/assets/img/icons/post_comment_icon.png',
-    },
-    {
-      title: 'There Is Only One Thing That Is Hospital.',
-      subtitle:
-        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
-      date: 'May 02',
-      category: 'Medical',
-      author: 'Admin',
-      thumbnail: 'assets/img/post_2.jpeg',
-      btnText: 'Read More',
-      postLink: '/blog/blog-details',
-      authorIcon: '/assets/img/icons/post_user_icon.png',
-      commentIcon: '/assets/img/icons/post_comment_icon.png',
-    },
-    {
-      title: 'This Working World and Infection Prevention.',
-      subtitle:
-        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
-      date: 'May 02',
-      category: 'Medical',
-      author: 'Admin',
-      thumbnail: 'assets/img/post_3.jpeg',
-      btnText: 'Read More',
-      postLink: '/blog/blog-details',
-      authorIcon: '/assets/img/icons/post_user_icon.png',
-      commentIcon: '/assets/img/icons/post_comment_icon.png',
-    },
-    {
-      title: 'Medical Of This Working Health Blog',
-      subtitle:
-        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
-      date: 'May 02',
-      category: 'Medical',
-      author: 'Admin',
-      thumbnail: 'assets/img/post_1.jpeg',
-      btnText: 'Read More',
-      postLink: '/blog/blog-details',
-      authorIcon: '/assets/img/icons/post_user_icon.png',
-      commentIcon: '/assets/img/icons/post_comment_icon.png',
-    },
-  ],
-};
-
 const MainHome = () => {
   return (
     <>
@@ -701,16 +641,6 @@ const MainHome = () => {
       <ContactSection2></ContactSection2>
 
       {/* End Contact Solution */}
-      {/* Start Blog Section */}
-
-      <Section
-        topSpaceLg="70"
-        topSpaceMd="110"
-        bottomSpaceLg="80"
-        bottomSpaceMd="120"
-      >
-        <BlogSection data={blogsData} />
-      </Section>
     </>
   );
 };
