@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Spacing from "../Spacing";
 
 const ProjectSection = ({ data }) => {
-  const [activeTab, setActiveTab] = useState("dental");
+  const [activeTab, setActiveTab] = useState("incorporation");
 
   return (
     <>
