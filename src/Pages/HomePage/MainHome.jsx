@@ -638,7 +638,9 @@ const MainHome = () => {
       {/* End Medical Tab Section */}
       {/* Start Contact Solution */}
 
-      <ContactSection2></ContactSection2>
+      <Section bottomSpaceLg="70" bottomSpaceMd="110">
+        <ContactSection2 />
+      </Section>
 
       {/* End Contact Solution */}
     </>
