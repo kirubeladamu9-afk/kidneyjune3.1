@@ -235,7 +235,7 @@ const teamData = {
     {
       name: 'Dr. Sophia Anderson',
       profession: 'Financial Oversight & Auditing',
-      imageUrl: 'https://cdn.builder.io/api/v1/image/assets%2F9007d8bf179e4f28b84a5500d86dd245%2F89fa98e3253346cca5cb30b898b5633d?format=webp&width=800&height=1200',
+      imageUrl: 'https://cdn.builder.io/api/v1/image/assets%2F9007d8bf179e4f28b84a5500d86dd245%2Fe015abe684604605af8c9c56a50ba869?format=webp&width=800&height=1200',
       link: '#team',
       facebook: '/',
       pinterest: '/',
