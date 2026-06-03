@@ -529,64 +529,6 @@ const medicalTabsData = {
   ],
 };
 
-const blogsData = {
-  sectionTitle: 'OUR LARGEST BLOG',
-  sectionSubtitle: 'Latest Posts &amp; Articles',
-  postsData: [
-    {
-      title: 'Medical Of This Working Health Blog',
-      subtitle:
-        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
-      date: 'May 02',
-      category: 'Medical',
-      author: 'Admin',
-      thumbnail: '/assets/img/post_1.jpeg',
-      btnText: 'Read More',
-      postLink: '/blog/blog-details',
-      authorIcon: '/assets/img/icons/post_user_icon.png',
-      commentIcon: '/assets/img/icons/post_comment_icon.png',
-    },
-    {
-      title: 'There Is Only One Thing That Is Hospital.',
-      subtitle:
-        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
-      date: 'May 02',
-      category: 'Medical',
-      author: 'Admin',
-      thumbnail: 'assets/img/post_2.jpeg',
-      btnText: 'Read More',
-      postLink: '/blog/blog-details',
-      authorIcon: '/assets/img/icons/post_user_icon.png',
-      commentIcon: '/assets/img/icons/post_comment_icon.png',
-    },
-    {
-      title: 'This Working World and Infection Prevention.',
-      subtitle:
-        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
-      date: 'May 02',
-      category: 'Medical',
-      author: 'Admin',
-      thumbnail: 'assets/img/post_3.jpeg',
-      btnText: 'Read More',
-      postLink: '/blog/blog-details',
-      authorIcon: '/assets/img/icons/post_user_icon.png',
-      commentIcon: '/assets/img/icons/post_comment_icon.png',
-    },
-    {
-      title: 'Medical Of This Working Health Blog',
-      subtitle:
-        'Medical standard chunk ofI nibh velit auctor aliquet sollic tudin.',
-      date: 'May 02',
-      category: 'Medical',
-      author: 'Admin',
-      thumbnail: 'assets/img/post_1.jpeg',
-      btnText: 'Read More',
-      postLink: '/blog/blog-details',
-      authorIcon: '/assets/img/icons/post_user_icon.png',
-      commentIcon: '/assets/img/icons/post_comment_icon.png',
-    },
-  ],
-};
 
 const MainHome = () => {
   return (
