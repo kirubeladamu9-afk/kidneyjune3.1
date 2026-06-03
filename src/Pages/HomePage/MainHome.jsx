@@ -134,7 +134,7 @@ const serviceData = {
       iconUrl: '/assets/img/icons/service_icon_1.png',
       index: '01',
       title: 'Dialysis Subsidy Fund',
-      subtitle: 'Providing direct financial grants to low-income patients to cover immediate hospital dialysis bills.',
+      subtitle: 'Providing direct financial grants to low-income or poor patients to cover immediate hospital dialysis bills.',
       link: '/service/service-details',
     },
     {
