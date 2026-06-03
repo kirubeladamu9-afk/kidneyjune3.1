@@ -72,11 +72,11 @@ const ctaData = {
 
 const aboutData = {
   sectionSubtitle: 'OUR ABOUT US',
-  sectionTitle: 'From Air Force Veteran to a National Mission of Care',
+  sectionTitle: 'Building Ethiopia’s Next Essential Public Healthcare Institution',
   aboutText:
     'Hallelujah Kidney Patients Association was established to address a critical gap in chronic healthcare infrastructure. For thousands of families in Ethiopia, managing advanced kidney disease is a catastrophic financial and logistical burden. With a single standard dialysis session costing 4,500 ETB—required three times a week—the economic strain quickly outpaces a familys regular income, leading to preventable loss of life.',
   service:
-    "There are many variations of pass available this medical service the team <a href='#''>READ MORE +</a>",
+    "Our ultimate objective mirrors the institutional scale of pioneering organizations like Macedonia and the Abebech Gobena Association. We are not just managing a crisis; we are constructing a permanent foundation for public healthcare relief. <a href='#''>READ MORE +</a>",
   experienceYears: '26+',
   experienceTitle: 'Experience',
   videoUrl: 'https://www.youtube.com/embed/rRid6GCJtgc',
