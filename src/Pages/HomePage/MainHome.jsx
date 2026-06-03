@@ -17,7 +17,7 @@ const heroData = {
   primarySlider: [
     {
       bgImageUrl: 'assets/img/hero_slider_3.jpg',
-      title: 'Hope for Kidney Patients</span>',
+      title: 'A Sanctuary of Hope for <span>Kidney Patients.</span>',
       contactSubtitle:
         'Founded by veteran Ato Aschalew Kassaye, Hallelujah Kidney Patients Association is turning personal adversity into a national mission of care.',
       contactTitle: 'Support Our Mission.',
