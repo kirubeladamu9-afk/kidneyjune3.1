@@ -301,7 +301,7 @@ const projectData = {
   tabs: [
     { id: 'incorporation', label: 'Legal Setup' },
     { id: 'infrastructure', label: 'Headquarters' },
-    { id: 'registry', label: 'Patient Systems' },
+    { id: 'registry', label: 'Patients' },
     { id: 'sustainability', label: 'Scaling' },
   ],
   tabData: [
