@@ -124,8 +124,8 @@ const countersData = [
 ];
 
 const serviceData = {
-  subtitle: 'OUR BEST SERVICE',
-  title: 'High-Quality Services This Doctor',
+  subtitle: 'Strategic Pillars & Programs',
+  title: 'Our Core Framework of Action',
   description:
     'We are privileged to work with hundreds of future-thinking medial,<br> including many of the world’s top hardware, software, and<br> brands, feel safe and comfortable in establishing.',
   services: [
