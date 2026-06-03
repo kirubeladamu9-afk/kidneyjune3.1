@@ -72,7 +72,7 @@ const ctaData = {
 
 const aboutData = {
   sectionSubtitle: 'OUR ABOUT US',
-  sectionTitle: 'More Than 26+ Years About Provide Medical.',
+  sectionTitle: 'From Air Force Veteran to a National Mission of Care',
   aboutText:
     'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establishing.',
   service:
