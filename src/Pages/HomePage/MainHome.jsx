@@ -207,7 +207,7 @@ const teamData = {
   sliderData: [
     {
       name: 'Dr. Norma Pedric',
-      profession: 'Neurologist',
+      profession: 'Executive Secretariat',
       imageUrl: '/assets/img/team_1.jpg',
       link: '/doctors/doctor-details',
       facebook: '/',
@@ -217,7 +217,7 @@ const teamData = {
     },
     {
       name: 'Dr. James Lewis',
-      profession: 'Neurologist',
+      profession: 'Medical Advisory Committee',
       imageUrl: '/assets/img/team_3.jpg',
       link: '/doctors/doctor-details',
       facebook: '/',
@@ -227,7 +227,7 @@ const teamData = {
     },
     {
       name: 'Dr. Sophia Anderson',
-      profession: 'Neurologist',
+      profession: 'Financial Oversight & Auditing',
       imageUrl: '/assets/img/team_4.jpg',
       link: '/doctors/doctor-details',
       facebook: '/',
@@ -237,7 +237,7 @@ const teamData = {
     },
     {
       name: 'Dr. Michael Thompson',
-      profession: 'Neurologist',
+      profession: 'Volunteer & Operations Management',
       imageUrl: 'assets/img/team_5.jpg',
       link: '/doctors/doctor-details',
       facebook: '/',
@@ -247,7 +247,7 @@ const teamData = {
     },
     {
       name: 'Dr. David Wilson',
-      profession: 'Neurologist',
+      profession: 'Board of Directors',
       imageUrl: '/assets/img/team_6.jpg',
       link: '/doctors/doctor-details',
       facebook: '/',
