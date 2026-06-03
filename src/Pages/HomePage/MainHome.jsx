@@ -102,7 +102,7 @@ const countersData = [
   {
     iconUrl: '/assets/img/icons/counter_icon_1.png',
     number: '13500 ETB', // Rendered as plain number for your counter animation component to handle
-    title: 'Weekly Cost (ETB) per Patient',
+    title: 'Weekly Cost per Patient',
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_2.png',
