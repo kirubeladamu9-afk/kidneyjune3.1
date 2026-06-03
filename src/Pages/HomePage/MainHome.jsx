@@ -71,7 +71,7 @@ const ctaData = {
 
 const aboutData = {
   sectionSubtitle: 'INSTITUTIONAL PROFILE',
-  sectionTitle: 'Building Ethiopia's Next Essential Public Healthcare Foundation',
+  sectionTitle: "Building Ethiopia's Next Essential Public Healthcare Foundation",
   aboutText:
     'Hallelujah Kidney Patients Association was established to address a critical gap in chronic healthcare infrastructure. For thousands of families in Ethiopia, managing advanced kidney disease is a catastrophic financial and logistical burden that demands structured, transparent, and permanent intervention.',
   service:
@@ -203,7 +203,7 @@ const serviceData = {
     },
   ],
   footerIcon: '/assets/img/icons/service_footer_icon_1.png',
-  footerText: 'Delivering tomorrow's health care for your family.<br>medical this View',
+  footerText: "Delivering tomorrow's health care for your family.<br>medical this View",
   footerLink: '#support',
   footerLinkText: 'SEE MORE',
 };
