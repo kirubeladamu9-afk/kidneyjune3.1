@@ -67,7 +67,7 @@ const ctaData = {
   title: 'Legally Registered. by the Civil Society Organizations Authority.',
   subtitle: 'on Megabit 8, 2018 E.C',
   buttonUrl: '/appointments',
-  buttonText: 'Booking Now',
+  buttonText: 'View Legal Certificate',
 };
 
 const aboutData = {
