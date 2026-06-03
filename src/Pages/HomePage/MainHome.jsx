@@ -286,21 +286,6 @@ const sectionData = {
       title: 'Corporate Partnerships',
       subtitle: 'Designed to seamlessly integrate with CSR (Corporate Social Responsibility) programs of local banks, insurance companies, and enterprises.',
     },
-    {
-      iconUrl: '/assets/img/icons/service_icon_12.png',
-      title: 'Medical Advices',
-      subtitle: 'Medical competitor research startup to financial',
-    },
-    {
-      iconUrl: '/assets/img/icons/service_icon_13.png',
-      title: 'Medical Research',
-      subtitle: 'Medical competitor research startup to financial',
-    },
-    {
-      iconUrl: '/assets/img/icons/service_icon_14.png',
-      title: 'Affordable Prices',
-      subtitle: 'Medical competitor research startup to financial',
-    },
   ],
 };
 
