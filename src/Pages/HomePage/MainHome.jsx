@@ -299,10 +299,10 @@ const projectData = {
   subtitle: 'OUR ROADMAP',
   description: 'Association Milestone Tracking',
   tabs: [
-    { id: 'incorporation', label: 'Phase 1: Legal Setup' },
-    { id: 'infrastructure', label: 'Phase 2: Headquarters' },
-    { id: 'registry', label: 'Phase 3: Patient Systems' },
-    { id: 'sustainability', label: 'Phase 4: Scaling' },
+    { id: 'incorporation', label: 'Legal Setup' },
+    { id: 'infrastructure', label: 'Headquarters' },
+    { id: 'registry', label: 'Patient Systems' },
+    { id: 'sustainability', label: 'Scaling' },
   ],
   tabData: [
     {
