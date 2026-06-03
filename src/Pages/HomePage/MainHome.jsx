@@ -21,9 +21,9 @@ const heroData = {
       contactTitle: 'Support Our Mission.',
       contact: 'Help us provide care and support to kidney patients.',
       btnText1: 'Donate Funds',
-      link: '/contact',
+      link: '#donate',
       btnText2: 'Donate Office Supplies',
-      link2: '/about',
+      link2: '#story',
       iconImgUrl: 'assets/img/icons/hero_icon.png',
     },
     {
@@ -34,9 +34,9 @@ const heroData = {
       contactTitle: 'Support Our Mission.',
       contact: 'Help us provide care and support to kidney patients.',
       btnText1: 'Donate Funds',
-      link: '/contact',
+      link: '#donate',
       btnText2: 'Donate Office Supplies',
-      link2: '/about',
+      link2: '#story',
       iconImgUrl: 'assets/img/icons/hero_icon.png',
     },
     {
@@ -47,9 +47,9 @@ const heroData = {
       contactTitle: 'Support Our Mission.',
       contact: 'Help us provide care and support to kidney patients.',
       btnText1: 'Donate Funds',
-      link: '/contact',
+      link: '#donate',
       btnText2: 'Donate Office Supplies',
-      link2: '/about',
+      link2: '#story',
       iconImgUrl: 'assets/img/icons/hero_icon.png',
     },
   ],
@@ -63,14 +63,15 @@ const heroData = {
 const ctaData = {
   imageUrl: '/assets/img/cta_img_1.jpg',
   title: 'An Accountable, Governed Executive Structure.',
-  subtitle: 'Our executive board and medical advisory committee ensure compliance, transparency, and impact.',
+  subtitle:
+    'Our executive board and medical advisory committee ensure compliance, transparency, and impact.',
   buttonUrl: '#contact',
   buttonText: 'Partner With Us',
 };
 
 const aboutData = {
   sectionSubtitle: 'INSTITUTIONAL PROFILE',
-  sectionTitle: 'Building Ethiopia’s Next Essential Public Healthcare Foundation',
+  sectionTitle: 'Building Ethiopia's Next Essential Public Healthcare Foundation',
   aboutText:
     'Hallelujah Kidney Patients Association was established to address a critical gap in chronic healthcare infrastructure. For thousands of families in Ethiopia, managing advanced kidney disease is a catastrophic financial and logistical burden that demands structured, transparent, and permanent intervention.',
   service:
@@ -83,15 +84,16 @@ const aboutData = {
     {
       imgUrl: '/assets/img/icons/about_icon_1.png',
       title: 'Patient Allocation Registry',
-      subtitle: 'A data-driven evaluation process prioritizing low-income individuals for direct subsidies.',
+      subtitle:
+        'A data-driven evaluation process prioritizing low-income individuals for direct subsidies.',
     },
     {
       imgUrl: '/assets/img/icons/about_icon_2.png',
       title: 'Regulatory Accountability',
-      subtitle: 'Operating strictly under charter guidelines approved by the Civil Society Authority.',
+      subtitle:
+        'Operating strictly under charter guidelines approved by the Civil Society Authority.',
     },
   ],
-
   btnUrl: '#story',
   btnText: 'View Charter Details',
   sectionImgUrl: 'assets/img/about_section_img_1.png',
@@ -101,7 +103,7 @@ const aboutData = {
 const countersData = [
   {
     iconUrl: '/assets/img/icons/counter_icon_1.png',
-    number: '13500 ETB', // Rendered as plain number for your counter animation component to handle
+    number: '13500 ETB',
     title: 'Weekly Cost per Patient',
   },
   {
@@ -111,12 +113,12 @@ const countersData = [
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_3.png',
-    number: '100%', // Represents 100% compliance/transparency focus
+    number: '100%',
     title: 'Audited Transparency',
   },
   {
     iconUrl: '/assets/img/icons/counter_icon_4.png',
-    number: '2018 E.C.', // Federal Civil Society Organization establishment year (E.C.)
+    number: '2018 E.C.',
     title: 'Established (E.C.)',
   },
 ];
@@ -132,70 +134,77 @@ const serviceData = {
       iconUrl: '/assets/img/icons/service_icon_1.png',
       index: '01',
       title: 'Dialysis Subsidy Fund',
-      subtitle: 'Providing direct financial grants to low-income or poor patients to cover immediate hospital dialysis bills.',
-      link: '/service/service-details',
+      subtitle:
+        'Providing direct financial grants to low-income or poor patients to cover immediate hospital dialysis bills.',
+      link: '#dialysis_subsidy',
     },
     {
       backgroundImage: '/assets/img/service_bg.jpg',
       iconUrl: '/assets/img/icons/service_icon_2.png',
       index: '02',
       title: 'Infrastructure & Head Office Drive',
-      subtitle: 'Mobilizing corporate assets and tech equipment to establish our central administrative hub in Akaki Kality.',
-      link: '/service/service-details',
+      subtitle:
+        'Mobilizing corporate assets and tech equipment to establish our central administrative hub in Akaki Kality.',
+      link: '#office_drive',
     },
     {
       backgroundImage: '/assets/img/service_bg.jpg',
       iconUrl: '/assets/img/icons/service_icon_3.png',
       index: '03',
       title: 'National Patient Registry',
-      subtitle: 'Deploying a secure, verified database to track patient demographics, treatment stages, and financial needs.',
-      link: '/service/service-details',
+      subtitle:
+        'Deploying a secure, verified database to track patient demographics, treatment stages, and financial needs.',
+      link: '#support',
     },
     {
       backgroundImage: '/assets/img/service_bg.jpg',
       iconUrl: '/assets/img/icons/service_icon_4.png',
       index: '04',
       title: 'Preventative Health Advocacy',
-      subtitle: 'Conducting nationwide public awareness campaigns focused on early detection and kidney health management.',
-      link: '/service/service-details',
+      subtitle:
+        'Conducting nationwide public awareness campaigns focused on early detection and kidney health management.',
+      link: '#support',
     },
     {
       backgroundImage: '/assets/img/service_bg.jpg',
       iconUrl: '/assets/img/icons/service_icon_5.png',
       index: '05',
       title: 'Patient Logistics Networks',
-      subtitle: 'Coordinating transport solutions to ensure vulnerable patients safely reach their medical centers on time.',
-      link: '/service/service-details',
+      subtitle:
+        'Coordinating transport solutions to ensure vulnerable patients safely reach their medical centers on time.',
+      link: '#support',
     },
     {
       backgroundImage: '/assets/img/service_bg.jpg',
       iconUrl: '/assets/img/icons/service_icon_6.png',
       index: '06',
       title: 'Pharmaceutical Procurement',
-      subtitle: 'Partnering with medical suppliers to secure and distribute essential chronic medications at subsidized rates.',
-      link: '/service/service-details',
+      subtitle:
+        'Partnering with medical suppliers to secure and distribute essential chronic medications at subsidized rates.',
+      link: '#support',
     },
     {
       backgroundImage: '/assets/img/service_bg.jpg',
       iconUrl: '/assets/img/icons/service_icon_7.png',
       index: '07',
       title: 'Regulatory Accountability',
-      subtitle: 'Ensuring complete alignment with Civil Society Authority operational audits and legal frameworks.',
-      link: '/service/service-details',
+      subtitle:
+        'Ensuring complete alignment with Civil Society Authority operational audits and legal frameworks.',
+      link: '#why-us',
     },
     {
       backgroundImage: '/assets/img/service_bg.jpg',
       iconUrl: '/assets/img/icons/service_icon_8.png',
       index: '08',
       title: 'Diaspora & Corporate Alliances',
-      subtitle: 'Creating secure channels for international institutions and corporate partners to sponsor long-term medical relief.',
-      link: '/service/service-details',
+      subtitle:
+        'Creating secure channels for international institutions and corporate partners to sponsor long-term medical relief.',
+      link: '#partnerships',
     },
   ],
   footerIcon: '/assets/img/icons/service_footer_icon_1.png',
-  footerText:
-    'Delivering tomorrow’s health care for your family.<br>medical this View',
-  footerLink: '/',
+  footerText: 'Delivering tomorrow's health care for your family.<br>medical this View',
+  footerLink: '#support',
   footerLinkText: 'SEE MORE',
 };
 
@@ -207,7 +216,7 @@ const teamData = {
       name: 'Dr. Norma Pedric',
       profession: 'Executive Secretariat',
       imageUrl: '/assets/img/team_1.jpg',
-      link: '/doctors/doctor-details',
+      link: '#team',
       facebook: '/',
       pinterest: '/',
       twitter: '/',
@@ -217,7 +226,7 @@ const teamData = {
       name: 'Dr. James Lewis',
       profession: 'Medical Advisory Committee',
       imageUrl: '/assets/img/team_3.jpg',
-      link: '/doctors/doctor-details',
+      link: '#team',
       facebook: '/',
       pinterest: '/',
       twitter: '/',
@@ -227,7 +236,7 @@ const teamData = {
       name: 'Dr. Sophia Anderson',
       profession: 'Financial Oversight & Auditing',
       imageUrl: '/assets/img/team_4.jpg',
-      link: '/doctors/doctor-details',
+      link: '#team',
       facebook: '/',
       pinterest: '/',
       twitter: '/',
@@ -237,7 +246,7 @@ const teamData = {
       name: 'Dr. Michael Thompson',
       profession: 'Volunteer & Operations Management',
       imageUrl: 'assets/img/team_5.jpg',
-      link: '/doctors/doctor-details',
+      link: '#team',
       facebook: '/',
       pinterest: '/',
       twitter: '/',
@@ -247,7 +256,7 @@ const teamData = {
       name: 'Dr. David Wilson',
       profession: 'Board of Directors',
       imageUrl: '/assets/img/team_6.jpg',
-      link: '/doctors/doctor-details',
+      link: '#team',
       facebook: '/',
       pinterest: '/',
       twitter: '/',
@@ -263,32 +272,38 @@ const sectionData = {
     {
       iconUrl: '/assets/img/icons/service_icon_9.png',
       title: 'Full CSO Accreditation',
-      subtitle: 'Legally certified and fully recognized under the Federal Civil Society Organizations Authority.',
+      subtitle:
+        'Legally certified and fully recognized under the Federal Civil Society Organizations Authority.',
     },
     {
       iconUrl: '/assets/img/icons/service_icon_10.png',
       title: 'Audited Transparency',
-      subtitle: 'Strict structural financial reporting guarantees every resource reaches direct patient subsidies.',
+      subtitle:
+        'Strict structural financial reporting guarantees every resource reaches direct patient subsidies.',
     },
     {
       iconUrl: '/assets/img/icons/service_icon_11.png',
       title: 'Zero Overhead Waste',
-      subtitle: 'Operating out of a localized grassroots hub ensures funds target patient care over corporate costs.',
+      subtitle:
+        'Operating out of a localized grassroots hub ensures funds target patient care over corporate costs.',
     },
     {
       iconUrl: '/assets/img/icons/service_icon_12.png',
       title: 'Verified Intake Registry',
-      subtitle: 'An objective data evaluation framework prioritizes low-income families facing severe medical crises.',
+      subtitle:
+        'An objective data evaluation framework prioritizes low-income families facing severe medical crises.',
     },
     {
       iconUrl: '/assets/img/icons/service_icon_13.png',
       title: 'Institutional Scalability',
-      subtitle: 'Backed by a long-term strategic roadmap to scale from local relief into a regional public utility.',
+      subtitle:
+        'Backed by a long-term strategic roadmap to scale from local relief into a regional public utility.',
     },
     {
       iconUrl: '/assets/img/icons/service_icon_14.png',
       title: 'Direct Strategic Impact',
-      subtitle: 'Seamlessly matches corporate social responsibility programs directly with local community needs.',
+      subtitle:
+        'Seamlessly matches corporate social responsibility programs directly with local community needs.',
     },
   ],
 };
@@ -412,7 +427,7 @@ const projectData = {
 };
 
 const ctaData1 = {
-  videoLink: 'https://www.youtube.com/embed/rRid6GCJtgc', // Replace with the association's promotional or introductory video if available
+  videoLink: 'https://www.youtube.com/embed/rRid6GCJtgc',
   videoButtonText: 'WATCH OVERVIEW',
   subtitle: 'OPERATIONAL TRANSPARENCY',
   title: 'Constructing a Scalable Public Utility for Chronic Healthcare.',
@@ -420,7 +435,7 @@ const ctaData1 = {
     'Hallelujah Kidney Patients Association acts as a direct link between corporate social responsibility programs, global philanthropy networks, and high-impact medical relief. Every operational milestone is structurally logged and audited to guarantee complete administrative accountability.',
   buttonLink: '#contact',
   buttonText: 'Partner With Us',
-  brandImage: 'assets/img/medical_brand.png', // This will render nicely as a stamp of certification or the association insignia next to the text
+  brandImage: 'assets/img/medical_brand.png',
 };
 
 const medicalTabsData = {
@@ -528,115 +543,136 @@ const medicalTabsData = {
   ],
 };
 
+// Smooth scroll utility — offset accounts for sticky header height
+const scrollToSection = (href) => {
+  if (!href || href === '#') {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    return;
+  }
+  const target = document.querySelector(href);
+  if (target) {
+    const offset = 100;
+    const top = target.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top, behavior: 'smooth' });
+  }
+};
+
 const MainHome = () => {
   return (
     <>
-      {/* End Header Section */}
-      {/* Start Hero Section */}
-      <HeroSection data={heroData} />
-      {/* End Hero Section */}
-      {/* Start CTA Section */}
-      <Section
-        className={
-          'cs_cta cs_style_1 cs_blue_bg position-relative overflow-hidden'
-        }
-      >
-        <CtaSection data={ctaData} />
-      </Section>
+      {/* ── Hero ─────────────────────────────────────────── */}
+      <div id="home">
+        <HeroSection data={heroData} />
+      </div>
 
-      {/* End CTA Section */}
-      {/* Start About Section */}
-      <Section
-        topSpaceLg="80"
-        topSpaceMd="120"
-        bottomSpaceLg="80"
-        bottomSpaceMd="120"
-        className="cs_about cs_style_1 position-relative"
-      >
-        <About data={aboutData} />
-      </Section>
+      {/* ── CTA Banner ───────────────────────────────────── */}
+      <div id="partner">
+        <Section className="cs_cta cs_style_1 cs_blue_bg position-relative overflow-hidden">
+          <CtaSection data={ctaData} />
+        </Section>
+      </div>
 
-      {/* End About Section */}
-      {/* Start Counter */}
-      <Section className="cs_counter_area cs_gray_bg">
-        <CounterSection data={countersData} />
-      </Section>
+      {/* ── About / Who We Are ───────────────────────────── */}
+      <div id="story">
+        <Section
+          topSpaceLg="80"
+          topSpaceMd="120"
+          bottomSpaceLg="80"
+          bottomSpaceMd="120"
+          className="cs_about cs_style_1 position-relative"
+        >
+          <About data={aboutData} />
+        </Section>
+      </div>
 
-      {/* End Counter */}
-      {/* Start Service Section */}
+      {/* ── Counters ─────────────────────────────────────── */}
+      <div id="stats">
+        <Section className="cs_counter_area cs_gray_bg">
+          <CounterSection data={countersData} />
+        </Section>
+      </div>
 
-      <Section
-        topSpaceLg="70"
-        topSpaceMd="110"
-        bottomSpaceLg="80"
-        bottomSpaceMd="120"
-        className={'cs_gray_bg'}
-      >
-        <Service cardBg={'cs_gray_bg'} data={serviceData} />
-      </Section>
+      {/* ── Services / Pillars ───────────────────────────── */}
+      <div id="pillars">
+        <Section
+          topSpaceLg="70"
+          topSpaceMd="110"
+          bottomSpaceLg="80"
+          bottomSpaceMd="120"
+          className="cs_gray_bg"
+        >
+          <Service cardBg="cs_gray_bg" data={serviceData} />
+        </Section>
+      </div>
 
-      {/* End Service Section */}
-      {/* Start Team Section */}
+      {/* ── Team ─────────────────────────────────────────── */}
+      <div id="team">
+        <Section
+          topSpaceLg="70"
+          topSpaceMd="110"
+          className="cs_team_section position-relative"
+        >
+          <TeamSection
+            hr={true}
+            variant="cs_pagination cs_style_2"
+            data={teamData}
+          />
+        </Section>
+      </div>
 
-      <Section
-        topSpaceLg="70"
-        topSpaceMd="110"
-        className={'cs_team_section position-relative'}
-      >
-        <TeamSection
-          hr={true}
-          variant={'cs_pagination cs_style_2'}
-          data={teamData}
-        />
-      </Section>
-      {/* End Team Section */}
-      {/* Start Why Choose Us Section */}
+      {/* ── Why Choose Us ────────────────────────────────── */}
+      <div id="why-us">
+        <Section
+          topSpaceLg="70"
+          topSpaceMd="110"
+          bottomSpaceLg="80"
+          bottomSpaceMd="120"
+          className="cs_gray_bg cs_bg_filed"
+          backgroundImage="/assets/img/service_bg_2.jpg"
+        >
+          <ChooseUs data={sectionData} />
+        </Section>
+      </div>
 
-      <Section
-        topSpaceLg="70"
-        topSpaceMd="110"
-        bottomSpaceLg="80"
-        bottomSpaceMd="120"
-        className="cs_gray_bg cs_bg_filed"
-        backgroundImage="/assets/img/service_bg_2.jpg"
-      >
-        <ChooseUs data={sectionData} />
-      </Section>
+      {/* ── Milestones / Roadmap ─────────────────────────── */}
+      <div id="milestones">
+        <Section topSpaceLg="70" topSpaceMd="110" className="cs_tabs">
+          <ProjectSection data={projectData} />
+        </Section>
+      </div>
 
-      {/* End Why Choose Us Section */}
-      {/* Start Projects Section */}
-      <Section topSpaceLg="70" topSpaceMd="110" className="cs_tabs">
-        <ProjectSection data={projectData} />
-      </Section>
+      {/* ── Donate / CTA 2 ───────────────────────────────── */}
+      <div id="donate">
+        <Section
+          topSpaceLg="70"
+          topSpaceMd="110"
+          bottomSpaceLg="80"
+          bottomSpaceMd="120"
+          className="cs_cta cs_style_2 cs_blue_bg cs_bg_filed cs_center"
+          backgroundImage="/assets/img/cta_bg_1.jpeg"
+        >
+          <CtaSection1 data={ctaData1} />
+        </Section>
+      </div>
 
-      {/* End Projects Section */}
-      {/* Start CTA Section */}
+      {/* ── Support / Medical Tabs ───────────────────────── */}
+      {/*
+        Tab panel IDs inside MedicalTabSection must match:
+        id="dialysis_subsidy", id="office_drive", id="volunteer_hub", id="partnerships"
+        The tabsData[].id values above already use those strings.
+      */}
+      <div id="support">
+        <Section topSpaceLg="70" topSpaceMd="110">
+          <MedicalTabSection data={medicalTabsData} />
+        </Section>
+      </div>
 
-      <Section
-        topSpaceLg="70"
-        topSpaceMd="110"
-        bottomSpaceLg="80"
-        bottomSpaceMd="120"
-        className="cs_cta cs_style_2 cs_blue_bg cs_bg_filed cs_center"
-        backgroundImage="/assets/img/cta_bg_1.jpeg"
-      >
-        <CtaSection1 data={ctaData1} />
-      </Section>
-
-      {/* End CTA Section */}
-      {/* Start Medical Tab Section */}
-      <Section topSpaceLg="70" topSpaceMd="110">
-        <MedicalTabSection data={medicalTabsData} />
-      </Section>
-
-      {/* End Medical Tab Section */}
-      {/* Start Contact Solution */}
-
-      <Section bottomSpaceLg="70" bottomSpaceMd="110">
-        <ContactSection2 />
-      </Section>
-
-      {/* End Contact Solution */}
+      {/* ── Contact ──────────────────────────────────────── */}
+      <div id="contact">
+        <Section bottomSpaceLg="70" bottomSpaceMd="110">
+          <ContactSection2 />
+        </Section>
+      </div>
     </>
   );
 };
