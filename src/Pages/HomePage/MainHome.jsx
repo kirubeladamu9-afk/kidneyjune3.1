@@ -74,7 +74,7 @@ const aboutData = {
   sectionSubtitle: 'OUR ABOUT US',
   sectionTitle: 'From Air Force Veteran to a National Mission of Care',
   aboutText:
-    'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establishing.',
+    'Hallelujah Kidney Patients Association was established to address a critical gap in chronic healthcare infrastructure. For thousands of families in Ethiopia, managing advanced kidney disease is a catastrophic financial and logistical burden. With a single standard dialysis session costing 4,500 ETB—required three times a week—the economic strain quickly outpaces a familys regular income, leading to preventable loss of life.',
   service:
     "There are many variations of pass available this medical service the team <a href='#''>READ MORE +</a>",
   experienceYears: '26+',
